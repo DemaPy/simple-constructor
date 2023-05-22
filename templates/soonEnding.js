@@ -3,7 +3,6 @@ export default {
         banner1, banner2, link1, link2
     }) => {
 
-  
         return `
             <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterSoonEndingTable" style="margin: 0 auto; max-width: 650px; color: #000000; background-color:#ffffff;">
                 <tbody>

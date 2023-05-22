@@ -1,0 +1,12 @@
+add validation for null in prices
+add countries ordering
+add products through input
+add translated words FREE
+add function to parse text data
+add header
+
+
+dach  it dk fi sk nl cz
+
+18 prices length for Beliani DE
+problem with products with the same name || we can fix it by adding replace function

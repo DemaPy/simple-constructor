@@ -168,6 +168,14 @@ export function parsePrice(pricesData) {
         "Beliani SK": "SK",
     };
 
+    function getPriceWithCurrency(country, price) {
+        if (price) {
+            return priceFormats[relativeCountries[country]](price)
+        } else {
+            return ""
+        }
+    }
+
     for (const productName in pricesData) {
         const productPrices = pricesData[productName]
 
@@ -179,14 +187,14 @@ export function parsePrice(pricesData) {
                         prices[relativeCountries[iterator.country]] = [
                             ...prices[relativeCountries[iterator.country]],
                             productName,
-                            priceFormats[relativeCountries[iterator.country]](iterator.lowPrice),
-                            priceFormats[relativeCountries[iterator.country]](iterator.highPrice),
+                            getPriceWithCurrency(iterator.country, iterator.lowPrice),
+                            getPriceWithCurrency(iterator.country, iterator.highPrice),
                         ];
                     } else {
                         prices[relativeCountries[iterator.country]] = [
                             productName,
-                            priceFormats[relativeCountries[iterator.country]](iterator.lowPrice),
-                            priceFormats[relativeCountries[iterator.country]](iterator.highPrice),
+                            getPriceWithCurrency(iterator.country, iterator.lowPrice),
+                            getPriceWithCurrency(iterator.country, iterator.highPrice),
                         ];
                     }
                 }

@@ -1,4 +1,3 @@
-/* FOOTER START */
 .newsletterFooter {
     padding-left: 20px;
     padding-right: 20px;
@@ -115,20 +114,19 @@
 /* CONTAINERS START */
 
 .newsletterProductContainer {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 20px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
 }
 
 .newsletterContainer {
-    padding-top: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ffffff;
+    padding-top: 35px!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
 }
 
 .newsletterBottom35px {
-    padding-bottom: 35px;
+    padding-bottom: 35px!important;
 }
 
 .newsletterTitleContainer {
@@ -179,12 +177,16 @@
 
 
 .newsletterProductContainerLEFT {
-    padding-right: 10px;
+    width: 50%!important;
+    vertical-align: top;
+    padding-right: 10px!important;
     padding-bottom: 35px;
 }
 
 .newsletterProductContainerRIGHT {
-    padding-left: 10px;
+    width: 50!important;
+    vertical-align: top;
+    padding-left: 10px!important;
     padding-bottom: 35px;
 }
 
@@ -205,7 +207,7 @@
 }
 
 .newsletterBottom35px {
-    padding-bottom: 35px;
+    padding-bottom: 35px!important;
 }
 
 
@@ -223,11 +225,34 @@
 }
 
 .newsletterIntroProducts {
-    padding-top: 35px;
-    padding-bottom: 70px;
+    padding-top: 35px !important;
+    padding-bottom: 70px !important;
 }
 
+.newsletterFreebieTop {
+    padding-bottom: 32px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.newsletterFreebieBottom {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+
 @media only screen and (max-width: 480px) {
+
+    .newsletterFreebieTop {
+        padding-bottom: 20px !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+
+    .newsletterFreebieBottom {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
 
     /* FOOTER START */
     .newsletterSocialIcon {
@@ -388,12 +413,18 @@
     .newsletterIntroProducts {
         padding-top: 20px !important;
         padding-bottom: 20px !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
     }
 
     .newsletterProductTitleHightPrice {
         display: block;
         padding-left: 0px !important;
+    }
+
+    .newsletterProductTitle {
+        font-size: 16px !important;
+    }
+
+    .newsletterProductTitleLowPrice {
+        font-size: 14px !important;
     }
 }

@@ -1,4 +1,4 @@
-function getFormula() {
+export function getFormula(products) {
   return `
     const links = {}
     const parsedShopIds = []
@@ -43,7 +43,7 @@ function getFormula() {
         }
     }
 
-    const ids = ${JSON.stringify(window.productsToParse)}
+    const ids = ${products}
 
     function getID(arr, productId) {
         let ids = [];
@@ -196,7 +196,18 @@ function getFormula() {
   `
 }
 
+// https://www.beliani.sk/js_backend_shop.php?fn=json_meta_dat&saved_id=259813&type=product
+
+// https://www.beliani.pl/js_backend_shop.php?fn=json_meta_dat&saved_id=58108&type=product
+
+// https://www.beliani.${countyr}/js_backend_shop.php?fn=json_meta_dat&saved_id=${SA Details Id}&type=product
+
+// https://www.beliani.ch/js_backend_shop.php?fn=collect_blocks&functions%5B%5D=ajax_prices&params%5Bajax_prices_ids%5D%5Bids%5D%5B%5D=56284&params%5Bajax_prices_ids%5D%5Bids%5D%5B%5D=2350
 
 
+// fn: collect_blocks
+// functions[]: ajax_prices
+// params[ajax_prices_ids][ids][]: 56284
 
-window.getFormula = getFormula
+// https://www.beliani.ch/js_backend_shop.php?fn=collect_blocks&functions[]=ajax_prices&&params[ajax_prices_ids][ids][]=56284&params[ajax_prices_ids][ids][]=56281&params[ajax_prices_ids][ids][]=116296&params[ajax_prices_ids][ids][]=56268&params[ajax_prices_ids][ids][]=56278&params[ajax_prices_ids][ids][]=11964&params[ajax_prices_ids][ids][]=368029&params[ajax_prices_ids][ids][]=248905&params[ajax_prices_ids][ids][]=376649&params[ajax_prices_ids][ids][]=251845&params[ajax_prices_ids][ids][]=263946&params[ajax_prices_ids][ids][]=374902&params[ajax_prices_ids][ids][]=251478&params[ajax_prices_ids][ids][]=71531&params[ajax_prices_ids][ids][]=193469&params[ajax_prices_ids][ids][]=324744&params[ajax_prices_ids][ids][]=193450&params[ajax_prices_ids][ids][]=375148&params[ajax_prices_ids][ids][]=301788&params[ajax_prices_ids][ids][]=197884&params[ajax_prices_ids][ids][]=85060&params[ajax_prices_ids][ids][]=315858
+

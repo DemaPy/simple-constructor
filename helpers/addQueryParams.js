@@ -1,5 +1,5 @@
-export function addParams(obj, id) {
-    const idsObj = incrementId(Number(id))
+export function addParams(obj, id, countriesOrdering) {
+    const idsObj = incrementId(Number(id), countriesOrdering)
 
     const objNew = {}
     for (const iterator in obj) {
@@ -11,8 +11,8 @@ export function addParams(obj, id) {
 }
 
 
-function incrementId(id) {
-    const countries = [
+function incrementId(id, countriesOrdering) {
+    const countries = countriesOrdering ? countriesOrdering : [
         "CHFR",
         "CHDE",
         "UK",

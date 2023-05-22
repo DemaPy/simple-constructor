@@ -44,11 +44,11 @@ const formatPrice = {
         price = price.replace(".99", ",99")
 
         if (price.length === 8) {
-            price = price.split("").toSpliced(2, 0, ".").join("")
+            price = price.split("").toSpliced(2, 0, " ").join("")
         }
 
         if (price.length === 7) {
-            price = price.split("").toSpliced(1, 0, ".").join("")
+            price = price.split("").toSpliced(1, 0, " ").join("")
         }
 
 

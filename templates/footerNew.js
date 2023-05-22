@@ -6,9 +6,13 @@ export default {
   ) => {
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
-        border="0" align="center">
+    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0" border="0" align="center">
         <tbody>
+            <tr>
+                <td>
+                    <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
+                </td>
+            </tr>
             <tr>
                 <td class="newsletterTopBottomContainer">
                     <span class="newsletterFooterTitle">
@@ -251,9 +255,13 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
-        border="0" align="center">
+    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0" border="0" align="center">
         <tbody>
+            <tr>
+                <td>
+                    <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
+                </td>
+            </tr>
             <tr>
                 <td class="newsletterTopBottomContainer">
                     <span class="newsletterFooterTitle">
@@ -402,56 +410,6 @@ export default {
                                             </tr>
                                         </tbody>
                                     </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-                </td>
-            </tr>
-            <!-- ADVANTAGES -->
-            <tr>
-                <td class="newsletterTopBottomContainer">
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.de/content/lieferung/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages1New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.de/content/uber-uns/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages2New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.de/content/faq/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages3New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.de/content/agb/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages4New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -680,30 +638,6 @@ export default {
                                 </tbody>
                             </table>
                             </td>
-                        </tr>
-                    </tbody>
-                </table>
-                </td>
-            </tr>
-            <tr>
-                <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
-            </tr>
-            <!-- ADVANTAGES -->
-            <tr>
-                <td class="newsletterTopBottomContainer">
-                <table border="0" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5;" width="100%">
-                    <tbody>
-                        <tr>
-                            <td><a href="https://www.beliani.ch/content/lieferung/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/dachfooterAdvantages1New.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.beliani.ch/content/uber-uns/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/dachfooterAdvantages2New.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.beliani.ch/content/faq/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/dachfooterAdvantages3New.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.beliani.ch/content/agb/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/dachfooterAdvantages4New.jpg" style="display:block" width="100%" /> </a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1133,55 +1067,6 @@ export default {
                                             </tr>
                                         </tbody>
                                     </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-                </td>
-            </tr>
-            <!-- ADVANTAGES -->
-            <tr>
-                <td class="newsletterTopBottomContainer">
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a href="https://www.beliani.at/content/lieferung/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages1New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.at/content/uber-uns/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages2New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.at/content/faq/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages3New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.at/content/agb/">
-                                        <img src="https://beliani.info/newsletter/2022/dachfooterAdvantages4New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
                                 </td>
                             </tr>
                         </tbody>
@@ -1630,83 +1515,9 @@ export default {
                  <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
              </td>
          </tr>
-         <!-- ADVANTAGES -->
-         <tr>
-             <td class="newsletterTopBottomContainer">
-                 <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fr/content/livraison//?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/fr2023fr_27.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fr/content/a-propos-de-nous/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/fr2023fr_28.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fr/content/centre-d-aide/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/fr2023fr_29.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fr/content/cgv/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/fr2023fr_30.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-             </td>
-         </tr>
          <tr>
              <td class="newsletterTopBottomContainer" align="left">
                  <span class="newsletterConditions">*Conditions: ${text}</span>
-             </td>
-         </tr>
-         <tr>
-             <td
-                 style="vertical-align: middle; text-align: center; font-size: 14px; font-family: 'Open Sans', sans-serif!important; color: #000000;">
-                 <p><a href="[[newsunassignurl]]" style="text-decoration: underline; color: #000000;">Désabonnement</a>
-                 </p>
-             </td>
-         </tr>
-
-     </tbody>
-    </table>
-    <table cellspacing="0" cellpadding="0" border="0" align="center">
-     <tbody>
-         <tr>
-             <td align="center" class="newsletterFooterCompanyDetails">
-                 <span style="color: #000000;text-align: center; font-size:11px;">
-					 <b><font style="font-size: 10px;">Mentions légales</font></b>
-                     <br />
-                     Beliani GmbH, 6340 Baar, Suisse<br />
-                     téléphone: 01 87 39 86 15; adresse e-mail : <a href="mailto:mail@beliani.fr">mail@beliani.fr</a><br>
-                         Commercial Register: Commercial Register of the Canton of
-              Zug, CH-170.4.008.869-6<br />USt-IDNr: DE 276156472
-                 </span>
              </td>
          </tr>
      </tbody>
@@ -2130,56 +1941,6 @@ export default {
                                         </tr>
                                     </tbody>
                                 </table>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-            </td>
-        </tr>
-        <!-- ADVANTAGES -->
-        <tr>
-            <td class="newsletterTopBottomContainer">
-                <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.ch/content/livraison/">
-                                    <img src="https://beliani.info/newsletter/2022/chfr2023chfr_27.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.ch/content/a-propos-de-nous/">
-                                    <img src="https://beliani.info/newsletter/2022/chfr2023chfr_28.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.ch/content/faq/#7._Kann_ich_die_Garantie_auf_meinen_M_beln_auch_verl_ngern_/">
-                                    <img src="https://beliani.info/newsletter/2022/chfr2023chfr_29.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.ch/content/cgv">
-                                    <img src="https://beliani.info/newsletter/2022/chfr2023chfr_30.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
                             </td>
                         </tr>
                     </tbody>
@@ -2619,56 +2380,6 @@ export default {
                                          </tr>
                                      </tbody>
                                  </table>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-             </td>
-         </tr>
-         <!-- ADVANTAGES -->
-         <tr>
-             <td class="newsletterTopBottomContainer">
-                 <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.it/content/consegna/">
-                                     <img src="https://beliani.info/newsletter/2022/IT2023it_28.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.it/content/chi-siamo/">
-                                     <img src="https://beliani.info/newsletter/2022/IT2023it_29.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.it/content/help-center_italian/">
-                                     <img src="https://beliani.info/newsletter/2022/IT2023it_30.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.it/content/termini-e-condizioni/">
-                                     <img src="https://beliani.info/newsletter/2022/IT2023it_31.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
                              </td>
                          </tr>
                      </tbody>
@@ -3121,56 +2832,6 @@ export default {
                  <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
              </td>
          </tr>
-         <!-- ADVANTAGES -->
-         <tr>
-             <td class="newsletterTopBottomContainer">
-                 <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.co.uk/content/delivery/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_27.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.co.uk/content/about-us/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_28.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.co.uk/content/faq-en/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_29.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.co.uk/content/terms-and-conditions/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_30.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-             </td>
-         </tr>
          <tr>
              <td class="newsletterTopBottomContainer" align="left">
                  <span class="newsletterConditions">*Conditions: ${text}</span>
@@ -3610,56 +3271,6 @@ export default {
                     <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
                 </td>
             </tr>
-            <!-- ADVANTAGES -->
-            <tr>
-                <td class="newsletterTopBottomContainer">
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.es/content/envio/">
-                                        <img src="https://beliani.info/newsletter/2022/footerES230330mp1_28.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.es/content/sobre-nosotros/">
-                                        <img src="https://beliani.info/newsletter/2022/footerES230330mp1_29.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.es/content/centro-de-ayuda/">
-                                        <img src="https://beliani.info/newsletter/2022/footerES230330mp1_30.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.es/content/condiciones-generales/">
-                                        <img src="https://beliani.info/newsletter/2022/footerES230330mp1_31.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-                </td>
-            </tr>
             <tr>
                 <td class="newsletterTopBottomContainer" align="left">
                     <span class="newsletterConditions">*Condiciones: ${text}</span>
@@ -3885,30 +3496,6 @@ export default {
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
 		</tr>
-		<!-- ADVANTAGES -->
-						<tr>
-			<td class="newsletterTopBottomContainer">
-			<table border="0" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5;" width="100%">
-				<tbody>
-					<tr>
-						<td><a href="https://www.beliani.pt/content/entrega/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/ptfooter2023_2_06.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.pt/content/sobre-nos/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/ptfooter2023_2_07.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.pt/content/faq-pt/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/ptfooter2023_2_08.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.pt/content/termos-e-condicoes/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/ptfooter2023_2_09.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-		</tr>
-						<tr>
-			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
-		</tr>
 		<tr>
 			<td align="left" class="newsletterTopBottomContainer"><span class="newsletterConditions">*Termos e Condições: ${text}</span></td>
 		</tr>
@@ -3981,37 +3568,37 @@ export default {
                               </td>
                           </tr>
                           <tr>
-                              <td class="newsletterFooterCategoryLEFT">
-                                  <a
-                                      href="https://www.beliani.pl/fotel/Wszystkie%20produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_18.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                              <td class="newsletterFooterCategoryRIGHT">
-                                  <a
-                                      href="https://www.beliani.pl/przechowywanie/komody/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_19.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
-                          <tr>
-                              <td class="newsletterFooterCategoryLEFTBottom">
-                                  <a
-                                      href="https://www.beliani.pl/lampy/Wszystkie%20produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_22.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                              <td class="newsletterFooterCategoryRIGHTBottom">
-                                  <a
-                                      href="https://www.beliani.pl/dywany/Wszystkie%20produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_23.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
+                                <td class="newsletterFooterCategoryLEFT">
+                                    <a
+                                        href="https://www.beliani.pl/fotele/wszystkie+produkty/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=${id}">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_18.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                                <td class="newsletterFooterCategoryRIGHT">
+                                    <a
+                                        href="https://www.beliani.pl/przechowywanie/komody/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=${id}">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_19.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newsletterFooterCategoryLEFTBottom">
+                                    <a
+                                        href="https://www.beliani.pl/oswietlenie/wszystkie+produkty/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=${id}">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_22.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                                <td class="newsletterFooterCategoryRIGHTBottom">
+                                    <a
+                                        href="https://www.beliani.pl/dywany/Wszystkie%20produkty/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=${id}">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_23.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                            </tr>
                       </tbody>
                   </table>
               </td>
@@ -4099,6 +3686,9 @@ export default {
           <tr>
               <td class="newsletterKlarnaBannerContainer"><a href="https://www.facebook.com/BelianiAtWork/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}"><img alt="" border="0"  src="https://beliani.info/newsletter/2022/WorkBanner_PL.png" style="display:block" width="100%" /></a></td>
          </tr>
+         <tr>
+            <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
+        </tr>
           <!-- ADVANTAGES -->
           <tr>
               <td class="newsletterTopBottomContainer">
@@ -4236,37 +3826,37 @@ export default {
                               </td>
                           </tr>
                           <tr>
-                              <td class="newsletterFooterCategoryLEFT">
-                                  <a
-                                      href="https://www.beliani.pl/fotel/Wszystkie%20produkty/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_18.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                              <td class="newsletterFooterCategoryRIGHT">
-                                  <a
-                                      href="https://www.beliani.pl/przechowywanie/komody/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_19.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
-                          <tr>
-                              <td class="newsletterFooterCategoryLEFTBottom">
-                                  <a
-                                      href="https://www.beliani.pl/lampy/Wszystkie%20produkty/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_22.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                              <td class="newsletterFooterCategoryRIGHTBottom">
-                                  <a
-                                      href="https://www.beliani.pl/dywany/Wszystkie%20produkty/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_23.jpg" alt=""
-                                          style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
+                                <td class="newsletterFooterCategoryLEFT">
+                                    <a
+                                        href="https://www.beliani.pl/fotele/wszystkie+produkty/">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_18.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                                <td class="newsletterFooterCategoryRIGHT">
+                                    <a
+                                        href="https://www.beliani.pl/przechowywanie/komody/">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_19.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newsletterFooterCategoryLEFTBottom">
+                                    <a
+                                        href="https://www.beliani.pl/oswietlenie/wszystkie+produkty/">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_22.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                                <td class="newsletterFooterCategoryRIGHTBottom">
+                                    <a
+                                        href="https://www.beliani.pl/dywany/Wszystkie%20produkty/">
+                                        <img src="https://beliani.info/newsletter/2022/pl2023pl_23.jpg" alt=""
+                                            style="display:block" width="100%" border="0">
+                                    </a>
+                                </td>
+                            </tr>
                       </tbody>
                   </table>
               </td>
@@ -4354,51 +3944,6 @@ export default {
           <tr>
               <td class="newsletterKlarnaBannerContainer"><a href="https://www.facebook.com/BelianiAtWork/"><img alt="" border="0"  src="https://beliani.info/newsletter/2022/WorkBanner_PL.png" style="display:block" width="100%" /></a></td>
          </tr>
-          <!-- ADVANTAGES -->
-          <tr>
-              <td class="newsletterTopBottomContainer">
-                  <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                      <tbody>
-                          <tr>
-                              <td>
-                                  <a
-                                      href="https://www.beliani.pl/content/dostawa/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_27.jpg"
-                                          alt="" style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <a
-                                      href="https://www.beliani.pl/content/o-nas/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_28.jpg"
-                                          alt="" style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <a
-                                      href="https://www.beliani.pl/content/najczesciej-zadawane-pytania/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_29.jpg"
-                                          alt="" style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <a
-                                      href="https://www.beliani.pl/content/ogolne-warunki-handlowe/">
-                                      <img src="https://beliani.info/newsletter/2022/pl2023pl_30.jpg"
-                                          alt="" style="display:block" width="100%" border="0" />
-                                  </a>
-                              </td>
-                          </tr>
-                      </tbody>
-                  </table>
-              </td>
-          </tr>
           <tr>
               <td>
                   <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
@@ -4613,30 +4158,6 @@ export default {
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
-		</tr>
-		<!-- ADVANTAGES -->
-				<tr>
-			<td class="newsletterTopBottomContainer">
-			<table border="0" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5;" width="100%">
-				<tbody>
-					<tr>
-						<td><a href="https://www.beliani.hu/content/szallitas/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/hufooter2023_2_06.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.hu/content/rolunk/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/hufooter2023_2_07.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.hu/content/faq/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/hufooter2023_2_08.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.hu/content/aszf/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/hufooter2023_2_09.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-		</tr>
-				<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
 		</tr>
 		<tr>
@@ -5076,56 +4597,6 @@ export default {
                     <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
                 </td>
             </tr>
-            <!-- ADVANTAGES -->
-            <tr>
-                <td class="newsletterTopBottomContainer">
-                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.nl/content/levering/">
-                                        <img src="https://beliani.info/newsletter/2022/nlfooterAdvantages1New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.nl/content/over-ons/">
-                                        <img src="https://beliani.info/newsletter/2022/nlfooterAdvantages2New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.nl/content/faq/">
-                                        <img src="https://beliani.info/newsletter/2022/nlfooterAdvantages3New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a
-                                        href="https://www.beliani.nl/content/algemene-voorwaarden/">
-                                        <img src="https://beliani.info/newsletter/2022/nlfooterAdvantages4New.jpg"
-                                            alt="" style="display:block" width="100%" border="0" />
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-                </td>
-            </tr>
             <tr>
                 <td class="newsletterTopBottomContainer" align="left">
                     <span class="newsletterConditions">*Voorwaarden: ${text}</span>
@@ -5208,7 +4679,7 @@ export default {
                             </td>
                             <td class="newsletterFooterCategoryRIGHT">
                                 <a
-                                    href="https://www.beliani.se/forvaring/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                    href="https://www.beliani.se/forvaring/skap-och-skankar/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                     <img src="https://beliani.info/newsletter/2022/footer2023se_16.jpg" alt=""
                                         style="display:block" width="100%" border="0" />
                                 </a>
@@ -5458,7 +4929,7 @@ export default {
                             </td>
                             <td class="newsletterFooterCategoryRIGHT">
                                 <a
-                                    href="https://www.beliani.se/forvaring/">
+                                    href="https://www.beliani.se/forvaring/skap-och-skankar/">
                                     <img src="https://beliani.info/newsletter/2022/footer2023se_16.jpg" alt=""
                                         style="display:block" width="100%" border="0" />
                                 </a>
@@ -5553,56 +5024,6 @@ export default {
                                         </tr>
                                     </tbody>
                                 </table>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-            </td>
-        </tr>
-        <!-- ADVANTAGES -->
-        <tr>
-            <td class="newsletterTopBottomContainer">
-                <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.se/content/leverans/">
-                                    <img src="https://beliani.info/newsletter/2022/footer2023se_24.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.se/content/villkor/">
-                                    <img src="https://beliani.info/newsletter/2022/footer2023se_25.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.se/content/om-oss/">
-                                    <img src="https://beliani.info/newsletter/2022/footer2023se_27.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a
-                                    href="https://www.beliani.se/content/sjalvbetjaning_swedish/">
-                                    <img src="https://beliani.info/newsletter/2022/footer2023se_28.jpg"
-                                        alt="" style="display:block" width="100%" border="0" />
-                                </a>
                             </td>
                         </tr>
                     </tbody>
@@ -6053,56 +5474,6 @@ export default {
                  <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
              </td>
          </tr>
-         <!-- ADVANTAGES -->
-         <tr>
-             <td class="newsletterTopBottomContainer">
-                 <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.dk/content/levering/">
-                                     <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_28.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.dk/content/om-os/">
-                                     <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_29.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.dk/content/hjaelp/">
-                                     <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_30.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.dk/content/vilkar-og-betingelser/">
-                                     <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_31.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-             </td>
-         </tr>
          <tr>
              <td class="newsletterTopBottomContainer" align="left">
                  <span class="newsletterConditions">*Vilkår og betingelser: ${text}</span>
@@ -6325,30 +5696,6 @@ export default {
                 </td>
             </tr>
             <tr>
-                <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
-            </tr>
-            <!-- ADVANTAGES -->
-                            <tr>
-                <td class="newsletterTopBottomContainer">
-                <table border="0" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5;" width="100%">
-                    <tbody>
-                        <tr>
-                            <td><a href="https://www.beliani.cz/content/dodani/"><img alt="" border="0" src="https://beliani.info/newsletter/czfooter2023_2_06.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.beliani.cz/content/o-nas/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/czfooter2023_2_07.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.beliani.cz/content/faq/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/czfooter2023_2_08.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.beliani.cz/content/vseobecne-podminky/"><img alt="" border="0" src="https://beliani.info/newsletter/czfooter2023_2_09.jpg" style="display:block" width="100%" /> </a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                </td>
-            </tr>
-                            <tr>
                 <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
             </tr>
             <tr>
@@ -6787,56 +6134,6 @@ export default {
                  <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
              </td>
          </tr>
-         <!-- ADVANTAGES -->
-         <tr>
-             <td class="newsletterTopBottomContainer">
-                 <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fi/content/toimitus/">
-                                     <img src="https://beliani.info/newsletter/2022/footer2023fi_24.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fi/content/tietoja-meista/">
-                                     <img src="https://beliani.info/newsletter/2022/footer2023fi_25.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fi/content/ohjekeskus/">
-                                     <img src="https://beliani.info/newsletter/2022/footer2023fi_27.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td>
-                                 <a
-                                     href="https://www.beliani.fi/content/kayttoehdot/">
-                                     <img src="https://beliani.info/newsletter/2022/footer2023fi_28.jpg"
-                                         alt="" style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
-         <tr>
-             <td>
-                 <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-             </td>
-         </tr>
          <tr>
              <td class="newsletterTopBottomContainer" align="left">
                  <span class="newsletterConditions">*Ehdot: ${text}</span>
@@ -7005,7 +6302,7 @@ export default {
                                            </td>
                                            <td class="newsletterSocialIcon">
                                                <a
-                                                   href="https://www.pinterest.com/beliani_norge/?utm_campaign=&utm_medium=email&utm_source=${id}">
+                                                   href="https://www.pinterest.com/beliani_norge/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                                    <img src="https://beliani.info/newsletter/2022/footerPinterest2022New.jpg"
                                                        width="100%" border="0" style="display:block;"
                                                        alt="Pinterest"    >
@@ -7275,56 +6572,6 @@ export default {
                <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
            </td>
        </tr>
-       <!-- ADVANTAGES -->
-       <tr>
-           <td class="newsletterTopBottomContainer">
-               <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
-                   <tbody>
-                       <tr>
-                           <td>
-                               <a
-                                   href="https://www.beliani.no/content/levering/">
-                                   <img src="https://beliani.info/newsletter/2022/NO2023no_28.jpg"
-                                       alt="" style="display:block" width="100%" border="0" />
-                               </a>
-                           </td>
-                       </tr>
-                       <tr>
-                           <td>
-                               <a
-                                   href="https://www.beliani.no/content/om-oss/">
-                                   <img src="https://beliani.info/newsletter/2022/NO2023no_29.jpg"
-                                       alt="" style="display:block" width="100%" border="0" />
-                               </a>
-                           </td>
-                       </tr>
-                       <tr>
-                           <td>
-                               <a
-                                   href="https://www.beliani.no/content/hjelpesenter_norwegian/">
-                                   <img src="https://beliani.info/newsletter/2022/NO2023no_30.jpg"
-                                       alt="" style="display:block" width="100%" border="0" />
-                               </a>
-                           </td>
-                       </tr>
-                       <tr>
-                           <td>
-                               <a
-                                   href="https://www.beliani.no/content/vilkar-og-betingelser/">
-                                   <img src="https://beliani.info/newsletter/2022/NO2023no_31.jpg"
-                                       alt="" style="display:block" width="100%" border="0" />
-                               </a>
-                           </td>
-                       </tr>
-                   </tbody>
-               </table>
-           </td>
-       </tr>
-       <tr>
-           <td>
-               <img src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" alt="">
-           </td>
-       </tr>
        <tr>
            <td class="newsletterTopBottomContainer" align="left">
                <span class="newsletterConditions">*Vilkår: ${text}</span>
@@ -7534,30 +6781,6 @@ export default {
 			</td>
 		</tr>
 		<tr>
-			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
-		</tr>
-		<!-- ADVANTAGES -->
-						<tr>
-			<td class="newsletterTopBottomContainer">
-			<table border="0" cellpadding="0" cellspacing="0" style="background-color: #f5f5f5;" width="100%">
-				<tbody>
-					<tr>
-						<td><a href="https://www.beliani.sk/content/dodanie/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/skfooter2023_2_06.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.sk/content/o-nas/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/skfooter2023_2_07.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.sk/content/faq/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/skfooter2023_2_08.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-					<tr>
-						<td><a href="https://www.beliani.sk/content/vseobecne-podmienky/"><img alt="" border="0" src="https://beliani.info/newsletter/2022/skfooter2023_2_09.jpg" style="display:block" width="100%" /> </a></td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-		</tr>
-						<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
 		</tr>
 		<tr>
