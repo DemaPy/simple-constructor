@@ -1,9 +1,10 @@
 import { addParams } from "../helpers/addQueryParams.js";
 import { parsePrice } from "../helpers/parsePrice.js";
-import { links, text, prices, codes, free, conditions } from "../data/index.js";
-import { clickRenderBtnHandler, copyHandlerFormula, copyHandlerTemplate, inputBlur, openCampaignHandler } from "./events.js";
+import { links, text, prices, codes, free, conditions, save } from "../data/index.js";
+import { clickRenderBtnHandler, copyHandlerFormula, copyHandlerTemplate, inputBlur, openCampaignHandler, openEveryHandler } from "./events.js";
+import { getPriceFromXLS } from "../helpers/collectPriceFromXLS.js";
 
-export function initApp({ renderTo, startId, countries }, templates) {
+export function initApp({ renderTo, startId, countries, productsOrdering, xlsPath }, templates) {
 
     let country = "de".toUpperCase()
     let renderTemplate = {
@@ -12,26 +13,29 @@ export function initApp({ renderTo, startId, countries }, templates) {
     let productsToParse = {
         value: null
     }
+
     const root = document.querySelector(renderTo);
-    const [linksWithTrackingLinkAndId, countriesAndId] = addParams(links, startId, countries)
+    const [allLinks, countryRelativeToImageLinks, countryRelativeToLinks, countriesAndId] = addParams(links, startId, countries)
 
     if (country in links && country in text) {
         setEvents()
     } else {
-      alert("Invalid country.");
+        Toastify({
+            text: "Invalid country.",
+            escapeMarkup: false,
+            duration: 3000
+        }).showToast();
     }
 
     function render() {
         if (root) {
-            if (hasUndefined(selectTemplateToRender(renderTemplate.value))) {
-                if (confirm("HTML code has undefined value. Do you want to render it?")) {
-                    return root.innerHTML = selectTemplateToRender(renderTemplate.value)
+            selectTemplateToRender(renderTemplate.value).then(template => {
+                if (hasUndefined(template)) {
+                    return root.innerHTML = templates.errorPage('Error rendering. Please check your HTML code and try again.')
                 }
 
-                return root.innerHTML = templates.errorPage('Error rendering. Please check your HTML code and try again.')
-            } else {
-                root.innerHTML = selectTemplateToRender(renderTemplate.value)
-            }
+                root.innerHTML = template
+            })
         } else {
           alert("Please check '' renderTo '' configuration.");
         }
@@ -41,22 +45,25 @@ export function initApp({ renderTo, startId, countries }, templates) {
         const app = document.querySelector("#app")
 
         const first = document.querySelector("#first")
+        const firstChildNodes = Array.from(document.querySelector("#first").children)
         const products = document.querySelector("#products")
         const copyFormula = document.querySelector(".copyFormula")
+        const openEvery = document.querySelector(".openEvery")
         const copyTemplate = document.querySelector(".copyTemplate")
         const openCampaign = document.querySelector(".openCampaign")
         const renderTemplateBtn = document.querySelector(".renderTemplate")
-        const sync = syncHash(first.children, render)
+        const sync = syncHash(firstChildNodes, render)
 
         window.addEventListener('load', () => sync())
         window.addEventListener("popstate", () => sync());
 
         products.addEventListener('blur', (e) => inputBlur(e, productsToParse))
-        renderTemplateBtn.addEventListener('click', (e) => clickRenderBtnHandler(e, renderTemplate, render))
-        copyTemplate.addEventListener("click", (e) => copyHandlerTemplate(e, copyTemplate, app, renderTemplate))
+        openEvery.addEventListener('click', (e) => openEveryHandler(firstChildNodes))
         openCampaign.addEventListener('click', (e) => openCampaignHandler(e, countriesAndId[country]))
         copyFormula.addEventListener("click", (e) => copyHandlerFormula(e, copyFormula, productsToParse))
-        first.addEventListener('click', (e) => first.childNodes.forEach(node => setCountry(node, e.target, sync)))
+        first.addEventListener('click', (e) => firstChildNodes.forEach(node => setCountry(node, e.target)))
+        renderTemplateBtn.addEventListener('click', (e) => clickRenderBtnHandler(e, renderTemplate, render))
+        copyTemplate.addEventListener("click", (e) => copyHandlerTemplate(e, copyTemplate, app, renderTemplate))
     }
         
     function setCountry(node, target, sync) {
@@ -64,7 +71,6 @@ export function initApp({ renderTo, startId, countries }, templates) {
             const selectedCountry = target.attributes.value.value
             window.location.hash = selectedCountry
             country = selectedCountry
-            sync()
         }
     }
 
@@ -105,7 +111,7 @@ export function initApp({ renderTo, startId, countries }, templates) {
     function setActive(children) {
         const countryHash = window.location.hash.replace("#", "").toUpperCase()
 
-        Array.from(children).forEach(node => {
+        children.forEach(node => {
             if (countryHash === node.attributes.value.value) {
                 return node.classList.add("active")
             }
@@ -115,22 +121,61 @@ export function initApp({ renderTo, startId, countries }, templates) {
 
     function selectTemplateToRender(template) {
         if (template in templates) {
-            return templates[template](
-                {
-                    free: free[country],
-                    links: links[country],
-                    id: countriesAndId[country],
-                    conditions: conditions[country],
-                    trackingLinks: linksWithTrackingLinkAndId[country],
-                    text:  text[country].map((t) => t.replaceAll("\n", "<br />")),
-                    prices: country === "CHFR" ? parsePrice(prices)["CHDE"] : parsePrice(prices)[country],
-                    differencePrices: prices,
-                    country,
-                    code: codes[country]
-                }
-            )
+            if (xlsPath) {
+                return new Promise((resolve, reject) => {
+                    resolve(getPriceFromXLS(country, productsOrdering, xlsPath))
+                })
+                .then((pricesXLS) => {
+                    if (country in pricesXLS) {
+                        return templates[template]({
+                            free: free[country],
+                            links: links[country],
+                            allLinks: allLinks[country],
+                            images: countryRelativeToImageLinks[country],
+                            trackingLinks: countryRelativeToLinks[country],
+                            save: save[country],
+        
+                            id: countriesAndId[country],
+                            conditions: conditions[country],
+
+                            pricesXLS: pricesXLS[country],
+                            prices: country === "CHFR" ? parsePrice(prices, "formatted")["CHDE"] : parsePrice(prices, "formatted")[country],
+                            formatPrices: country === "CHFR" ? parsePrice(prices, "formattedWithCurrency")["CHDE"] : parsePrice(prices, "formattedWithCurrency")[country],
+        
+                            text:  text[country].map((t) => t.replaceAll("\n", "<br />")),
+                            code: codes[country],
+                            country,
+                        })
+                    }
+
+                    return templates.errorPage("Please check xls file that you render. <br /> Name of xls file should be the same as country. <br /> Ensure that you exported country PL and xls file has the same name pl.xls .")
+                })
+            } else {
+                return new Promise((resolve, reject) => {
+                    resolve(
+                        templates[template]({
+                                free: free[country],
+                                links: links[country],
+                                allLinks: allLinks[country],
+                                images: countryRelativeToImageLinks[country],
+                                trackingLinks: countryRelativeToLinks[country],
+                                save: save[country],
+            
+                                id: countriesAndId[country],
+                                conditions: conditions[country],
+
+                                prices: country === "CHFR" ? parsePrice(prices, "formatted")["CHDE"] : parsePrice(prices, "formatted")[country],
+                                formatPrices: country === "CHFR" ? parsePrice(prices, "formattedWithCurrency")["CHDE"] : parsePrice(prices, "formattedWithCurrency")[country],
+            
+                                text:  text[country].map((t) => t.replaceAll("\n", "<br />")),
+                                code: codes[country],
+                                country,
+                            })
+                    )
+                })
+            }
         } else {
-            return templates.errorPage()
+            return templates.errorPage("Please check template that you passed in app.js" + JSON.stringify(templates))
         }
     }
 

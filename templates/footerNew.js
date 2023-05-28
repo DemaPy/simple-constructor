@@ -5057,7 +5057,6 @@ export default {
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
     <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
@@ -5080,14 +5079,14 @@ export default {
                          <tr>
                              <td class="newsletterFooterCategoryLEFT">
                                  <a
-                                     href="https://www.beliani.dk/sofaer/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                     href="https://www.beliani.dk/sofaer/alle+produkter/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_08.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>
                              </td>
                              <td class="newsletterFooterCategoryRIGHT">
                                  <a
-                                     href="https://www.beliani.dk/senge/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                     href="https://www.beliani.dk/senge/alle+produkter/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_10.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>
@@ -5103,7 +5102,7 @@ export default {
                              </td>
                              <td class="newsletterFooterCategoryRIGHT">
                                  <a
-                                     href="https://www.beliani.dk/stuemobler/stole/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                     href="https://www.beliani.dk/stuemobler/stole/alle+produkter/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_15.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>
@@ -5112,7 +5111,7 @@ export default {
                          <tr>
                              <td class="newsletterFooterCategoryLEFT">
                                  <a
-                                     href="https://www.beliani.dk/lenestole/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                     href="https://www.beliani.dk/lenestole/alle+produkter/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_19.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>
@@ -5128,14 +5127,14 @@ export default {
                          <tr>
                              <td class="newsletterFooterCategoryLEFTBottom">
                                  <a
-                                     href="https://www.beliani.dk/belysning/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                     href="https://www.beliani.dk/belysning/alle+produkter/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_23.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>
                              </td>
                              <td class="newsletterFooterCategoryRIGHTBottom">
                                  <a
-                                     href="https://www.beliani.dk/gulvtepper/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                     href="https://www.beliani.dk/gulvtepper/alle+produkter/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_24.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>
@@ -5352,7 +5351,7 @@ export default {
                              </td>
                              <td class="newsletterFooterCategoryRIGHT">
                                  <a
-                                     href="https://www.beliani.dk/stuemobler/stole/">
+                                     href="https://www.beliani.dk/stuemobler/stole/alle+produkter/">
                                      <img src="https://beliani.info/newsletter/2022/ESfooter2023dk_15.jpg" alt=""
                                          style="display:block" width="100%" border="0" />
                                  </a>

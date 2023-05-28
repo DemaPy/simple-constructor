@@ -159,7 +159,7 @@ export function getFormula(products) {
                             country: getDataShopIds.sa.saved_params.username,
                             highPrice: getDataShopIds.sa.saved_params.ShopHPrice,
                             lowPrice: getDataShopIds.sa.saved_params.ShopPrice,
-                            differenceBetweenPrices: +getDataShopIds.sa.saved_params.ShopHPrice - +getDataShopIds.sa.saved_params.ShopPrice
+                            differenceBetweenPrices: Math.floor(+getDataShopIds.sa.saved_params.ShopHPrice - +getDataShopIds.sa.saved_params.ShopPrice)
                         }
                     ]
                     :
@@ -168,7 +168,7 @@ export function getFormula(products) {
                             country: getDataShopIds.sa.saved_params.username,
                             highPrice: getDataShopIds.sa.saved_params.ShopHPrice,
                             lowPrice: getDataShopIds.sa.saved_params.ShopPrice,
-                            differenceBetweenPrices: +getDataShopIds.sa.saved_params.ShopHPrice - +getDataShopIds.sa.saved_params.ShopPrice
+                            differenceBetweenPrices: Math.floor(+getDataShopIds.sa.saved_params.ShopHPrice - +getDataShopIds.sa.saved_params.ShopPrice)
                         }
                     ]
             

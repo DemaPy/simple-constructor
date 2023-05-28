@@ -1,6 +1,14 @@
 
+import { copyNewsletterWithHeaderAndStyles } from "../helpers/copyNewsletter.js";
 import { getCss } from "../helpers/getCss.js";
 import { getFormula } from "../helpers/Parse.js";
+
+
+function openEveryHandler(firstChildNodes) {
+    for (let index = 0; index < firstChildNodes.length; index++) {
+       window.open(window.location.origin + window.location.pathname + "#" + firstChildNodes[index].attributes.value.value)
+    }
+}
 
 
 let canMakeRequest = true
@@ -28,15 +36,18 @@ function inputBlur(e, productsToParse) {
 
 function copyHandlerTemplate(e, copyTemplate, app, renderTemplate) {
     if (renderTemplate.value === "newsletter") {
-        navigator.clipboard.writeText(app.innerHTML)
-        copyTemplate.textContent = "Copied to clipboard"
-        let id = setTimeout(() => {
-            copyTemplate.textContent = "Copy template"
-            clearInterval(id)
-        }, 2000)
-    } else {
-        Promise.resolve().then(() => getCss())
-        .then((css) => {
+        Promise.resolve().then(() => getCss("newsletter")).then((css) => {
+            navigator.clipboard.writeText(copyNewsletterWithHeaderAndStyles(app.innerHTML, css))
+            copyTemplate.textContent = "Copied to clipboard"
+            let id = setTimeout(() => {
+                copyTemplate.textContent = "Copy template"
+                clearInterval(id)
+            }, 2000)
+        })
+    }
+    
+    if (renderTemplate.value === "landing") {
+        Promise.resolve().then(() => getCss("landing")).then((css) => {
             navigator.clipboard.writeText(`<style>${css}</style>` + app.innerHTML)
             copyTemplate.textContent = "Copied to clipboard"
             let id = setTimeout(() => {
@@ -89,6 +100,7 @@ function openCampaignHandler(e, id) {
 
 export {
     inputBlur,
+    openEveryHandler,
     copyHandlerTemplate,
     copyHandlerFormula,
     clickRenderBtnHandler,

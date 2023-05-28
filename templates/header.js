@@ -111,8 +111,7 @@ export default {
     </p>
 
     <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Der Newsletter wird nicht richtig angezeigt? <a href="[[newsshowurl]]" style="color: #000; border: 0;">Sieh</a>
-        dir die Online-Version an.</p>
+        Der Newsletter wird nicht richtig angezeigt? <a href="[[newsshowurl]]" style="color: #000; border: 0;">Sieh</a> dir die Online-Version an.</p>
     <!-- top -->
 
     <table align="center" border="0" cellpadding="0" cellspacing="0"
@@ -1981,5 +1980,5 @@ export default {
   
       return templates[type]
     },
-  };
+};
   

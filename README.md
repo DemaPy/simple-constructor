@@ -12,6 +12,14 @@
 -set the variables: ${text} ${link} ${prices} into HTML template
    -increment variables CTRL + ALT + I
 
+In order to use this prices you need to set
+
+xlsPath: "./data/xls/your folder name/" or "./data/xls/"
+productsOrdering: ["product name"]
+
+in file app.js
+
+
 ## PL: Aby zacząć, potrzebujesz
 
 -zainstalowac rozszerzenia do swojego VS CODE: Prettier, Increment Selection
@@ -25,6 +33,14 @@
 -utwórz szablon HTML w pliku templates/newsletter.js templates/landing.js file
 -ustaw zmienne: ${text} ${link} ${prices} do szablonu HTML
    -incrementuj zmienne CTRL + ALT + I
+
+Zeby uzyc cen z xls file, trzeba zconfigurowac constructor:
+
+xlsPath: "./data/xls/your folder name/" or "./data/xls/"
+productsOrdering: ["product name"]
+
+in file app.js
+
 
 ## Shortcuts
 CTRL + D Select all

@@ -2,21 +2,22 @@ import footerNew from "./footerNew.js";
 import soonEnding from "./soonEnding.js";
 import header from "./header.js";
 
-
 export function landing({
-    trackingLinks,
-    id,
-    code,
-    text,
-    free,
-    links,
-    prices,
-    country,
-    conditions,
-    differencePrices,
-  }) {
-      
-    return `
+  trackingLinks,
+  allLinks,
+  images,
+  links,
+  save,
+  id,
+  code,
+  text,
+  free,
+  prices,
+  country,
+  conditions,
+  formatPrices,
+}) {
+  return `
     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: 0 auto; max-width: 650px;background-color: #ffffff;">
     <tr>
         <td align="center">
@@ -43,7 +44,7 @@ export function landing({
         </td>
     </tr>
     <tr>
-        <td align="center" style="background-color: #ffdeb3">
+        <td align="center" style="background-color: #f3f2f1">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
                     <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
@@ -59,18 +60,20 @@ export function landing({
         </td>
     </tr>
     <tr>
-        <td align="center" style="background-color: #ffdeb3">
+        <td align="center" style="background-color: #f3f2f1">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
                     <td align="center" class="newsletterContainer">
-                        <span style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000;" >${code}</span>
+                        <span style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">
+                        ${ code }
+                        </span>
                     </td>
                 </tr>
             </table>
         </td>
     </tr>
     <tr>
-        <td align="center" style="background-color: #ffdeb3">
+        <td align="center" style="background-color: #f3f2f1">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
                     <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
@@ -86,27 +89,27 @@ export function landing({
         </td>
     </tr>
     <tr>
-        <td align="center" style="background-color: #ffdeb3" class="newsletterIntroProducts">
+        <td align="center" style="background-color: #f3f2f1" class="newsletterIntroProducts">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
                     <td class="newsletterFreebieTop" align="center">
                           <a href=${links[5]}>
                               <img width="100%" src=${
-                              links[6]
+                                links[6]
                               } style="display: block;">
                           </a>
                           <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                               <tr>
                                   <td align="center" class="newsletterProductTitleContainer"><span
                                           class="newsletterProductTitle">${
-                                              prices[0].replace("_1", "")
+                                            formatPrices[0]
                                           }</span></td>
                               </tr>
                               <tr>
                                   <td align="center">
                                       <span class="newsletterProductTitleLowPrice">${free}</span>
                                       <span class="newsletterProductTitleHightPrice">${
-                                          prices[1]
+                                        formatPrices[1]
                                       }</span>
                                   </td>
                               </tr>
@@ -120,14 +123,14 @@ export function landing({
                                 <tr>
                                     <td align="center" class="newsletterProductTitleContainer"><span
                                             class="newsletterProductTitle">${
-                                              prices[3].replace("_2", "")
+                                              formatPrices[3]
                                             }</span></td>
                                 </tr>
                                 <tr>
                                     <td align="center">
                                         <span class="newsletterProductTitleLowPrice">${free}</span>
                                         <span class="newsletterProductTitleHightPrice">${
-                                          prices[4]
+                                          formatPrices[4]
                                         }</span>
                                     </td>
                                 </tr>
@@ -141,14 +144,14 @@ export function landing({
                                 <tr>
                                     <td align="center" class="newsletterProductTitleContainer"><span
                                             class="newsletterProductTitle">${
-                                              prices[6].replace("_3", "")
+                                              formatPrices[6]
                                             }</span></td>
                                 </tr>
                                 <tr>
                                     <td align="center">
                                         <span class="newsletterProductTitleLowPrice">${free}</span>
                                         <span class="newsletterProductTitleHightPrice">${
-                                          prices[7]
+                                          formatPrices[7]
                                         }</span>
                                     </td>
                                 </tr>
@@ -164,14 +167,14 @@ export function landing({
                         <tr>
                             <td align="center" class="newsletterProductTitleContainer"><span
                                     class="newsletterProductTitle">${
-                                      prices[9].replace("_4", "")
+                                      formatPrices[9]
                                     }</span></td>
                         </tr>
                         <tr>
                             <td align="center">
                                 <span class="newsletterProductTitleLowPrice">${free}</span>
                                 <span class="newsletterProductTitleHightPrice">${
-                                  prices[10]
+                                  formatPrices[10]
                                 }</span>
                             </td>
                         </tr>
@@ -185,14 +188,14 @@ export function landing({
                         <tr>
                             <td align="center" class="newsletterProductTitleContainer"><span
                                     class="newsletterProductTitle">${
-                                      prices[12].replace("_5", "")
+                                      formatPrices[12]
                                     }</span></td>
                         </tr>
                         <tr>
                             <td align="center">
                                 <span class="newsletterProductTitleLowPrice">${free}</span>
                                 <span class="newsletterProductTitleHightPrice">${
-                                  prices[13]
+                                  formatPrices[13]
                                 }</span>
                             </td>
                         </tr>
@@ -206,14 +209,14 @@ export function landing({
                         <tr>
                             <td align="center" class="newsletterProductTitleContainer"><span
                                     class="newsletterProductTitle">${
-                                      prices[15].replace("_6", "")
+                                      formatPrices[15]
                                     }</span></td>
                         </tr>
                         <tr>
                             <td align="center">
                                 <span class="newsletterProductTitleLowPrice">${free}</span>
                                 <span class="newsletterProductTitleHightPrice">${
-                                  prices[16]
+                                  formatPrices[16]
                                 }</span>
                             </td>
                         </tr>
@@ -223,18 +226,9 @@ export function landing({
             </table>
         </td>
     </tr>
+
     <tr>
-            <td align="center" style="background-color: #fff9f3">
-                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                    <tr>
-                        <td class="newsletterContainer" align="center"><img width="100%" src=${links[17]}
-                                style="display: block;"></td>
-                    </tr>
-                </table>
-            </td>
-    </tr>
-    <tr>
-        <td style="background-color: #fff9f3" align="center" class="newsletterContainer">
+        <td style="background-color: #ffffff" align="center" class="newsletterContainer">
                 <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                     <tr>
                         <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
@@ -259,16 +253,16 @@ export function landing({
         </td>
     </tr>
     <tr>
-        <td align="center" style="background-color: #fff9f3">
+        <td align="center" style="background-color: #ffffff">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
                     <td align="center">
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="center"><a
-                                        href=${links[18]}><img
+                                        href=${links[17]}><img
                                             width="100%"
-                                            src=${links[19]}
+                                            src=${links[18]}
                                             style="display: block;"></a></td>
                             </tr>
                         </table>
@@ -282,94 +276,94 @@ export function landing({
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[20]}><img
+                                                    href=${links[19]}><img
                                                         width="100%" src=${
-                                                          links[21]
+                                                          links[20]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[18]
+                                                                  formatPrices[18]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
                                                             <span class="newsletterProductTitleLowPrice">${
-                                                              prices[19]
+                                                              formatPrices[19]
                                                             }</span>
                                                             <span class="newsletterProductTitleHightPrice">${
-                                                              prices[20]
+                                                              formatPrices[20]
                                                             }</span>
                                                         </td>
                                                     </tr>
                                                 </table>
                                             </td>
                                             <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[22]}><img
+                                                    href=${links[21]}><img
                                                         width="100%" src=${
-                                                          links[23]
+                                                          links[22]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[21]
+                                                                  formatPrices[21]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[22]
+                                                          formatPrices[22]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[23]
-}</span></td>
+    formatPrices[23]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[24]}><img
+                                                    href=${links[23]}><img
                                                         width="100%" src=${
-                                                          links[25]
+                                                          links[24]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          prices[24]
+                                                          formatPrices[24]
                                                         }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[25]
+                                                          formatPrices[25]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[26]
-}</span></td>
+    formatPrices[26]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
                                             <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[26]}><img
+                                                    href=${links[25]}><img
                                                         width="100%" src=${
-                                                          links[27]
+                                                          links[26]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[27]
+                                                                  formatPrices[27]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[28]
+                                                          formatPrices[28]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[29]
-}</span></td>
+    formatPrices[29]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -382,23 +376,11 @@ prices[29]
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[28]}
+                                                    href=${links[27]}
                                                     style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
                                                         style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
                                                           text[8]
                                                         }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" class="newsletterContainer">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center"><img width="100%" src=${
-                                              links[29]
-                                            }
-                                                    style="display: block;"></td>
                                         </tr>
                                     </table>
                                 </td>
@@ -413,7 +395,7 @@ prices[29]
         <td align="center">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
-                    <td align="center" class="newsletterContainer" style="background-color: #fff9f3">
+                    <td align="center" class="newsletterContainer" style="background-color: #f3f2f1">
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
@@ -428,65 +410,65 @@ prices[29]
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="center"><a
-                                        href=${links[30]}><img
+                                        href=${links[28]}><img
                                             width="100%"
-                                            src=${links[31]}
+                                            src=${links[29]}
                                             style="display: block;"></a></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" style="background-color: #fff9f3">
+                    <td align="left" style="background-color: #f3f2f1">
                         <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                             <tr>
                                 <td align="center" class="newsletterProductContainer">
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%">
-                                                <a href=${links[32]}>
+                                                <a href=${links[30]}>
                                                     <img width="100%" src=${
-                                                      links[33]
+                                                      links[31]
                                                     } style="display: block;">
                                                 </a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[30]
+                                                                  formatPrices[30]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
                                                             <span class="newsletterProductTitleLowPrice">${
-                                                              prices[31]
+                                                              formatPrices[31]
                                                             }</span>
                                                             <span class="newsletterProductTitleHightPrice">${
-                                                              prices[32]
+                                                              formatPrices[32]
                                                             }</span>
                                                         </td>
                                                     </tr>
                                                 </table>
                                             </td>
                                             <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[34]}><img
+                                                    href=${links[32]}><img
                                                         width="100%" src=${
-                                                          links[35]
+                                                          links[33]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[33]
+                                                                  formatPrices[33]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[34]
+                                                          formatPrices[34]
                                                         }</span>
                                                         <span class="newsletterProductTitleHightPrice">${
-                                                          prices[35]
+                                                          formatPrices[35]
                                                         }</span></td>
                                                     </tr>
                                                 </table>
@@ -494,6 +476,27 @@ prices[29]
                                         </tr>
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                    href=${links[34]}><img
+                                                        width="100%" src=${
+                                                          links[35]
+                                                        }
+                                                        style="display: block;"></a>
+                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                    <tr>
+                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
+                                                          formatPrices[36]
+                                                        }</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                          formatPrices[37]
+                                                        }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[38]
+  }</span></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
                                                     href=${links[36]}><img
                                                         width="100%" src=${
                                                           links[37]
@@ -501,38 +504,17 @@ prices[29]
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          prices[36]
-                                                        }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[37]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-prices[38]
-}</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[38]}><img
-                                                        width="100%" src=${
-                                                          links[39]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[39]
+                                                                  formatPrices[39]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[40]
+                                                          formatPrices[40]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[41]
-}</span></td>
+    formatPrices[41]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -545,23 +527,11 @@ prices[41]
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[40]}
+                                                    href=${links[38]}
                                                     style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
                                                         style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
                                                           text[10]
                                                         }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" class="newsletterContainer">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center"><img width="100%" src=${
-                                              links[41]
-                                            }
-                                                    style="display: block;"></td>
                                         </tr>
                                     </table>
                                 </td>
@@ -576,7 +546,7 @@ prices[41]
         <td align="center">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
-                    <td align="center" class="newsletterContainer" style="background-color: #fdf8f8">
+                    <td align="center" class="newsletterContainer" style="background-color: #ffffff">
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
@@ -591,65 +561,65 @@ prices[41]
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="center"><a
-                                        href=${links[42]}><img
+                                        href=${links[39]}><img
                                             width="100%"
-                                            src=${links[43]}
+                                            src=${links[40]}
                                             style="display: block;"></a></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" style="background-color: #fff9f3">
+                    <td align="left" style="background-color: #ffffff">
                         <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                             <tr>
                                 <td align="center" class="newsletterProductContainer">
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[44]}><img
+                                                    href=${links[41]}><img
                                                         width="100%" src=${
-                                                          links[45]
+                                                          links[42]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[42]
+                                                                  formatPrices[42]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
                                                             <span class="newsletterProductTitleLowPrice">${
-                                                              prices[43]
+                                                              formatPrices[43]
                                                             }</span>
                                                             <span class="newsletterProductTitleHightPrice">${
-                                                              prices[44]
+                                                              formatPrices[44]
                                                             }</span>
                                                         </td>
                                                     </tr>
                                                 </table>
                                             </td>
                                             <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[46]}><img
+                                                    href=${links[43]}><img
                                                         width="100%" src=${
-                                                          links[47]
+                                                          links[44]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[45]
+                                                                  formatPrices[45]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[46]
+                                                          formatPrices[46]
                                                         }</span>
                                                         <span class="newsletterProductTitleHightPrice">${
-                                                          prices[47]
+                                                          formatPrices[47]
                                                         }</span></td>
                                                     </tr>
                                                 </table>
@@ -657,45 +627,45 @@ prices[41]
                                         </tr>
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[48]}><img
+                                                    href=${links[45]}><img
                                                         width="100%" src=${
-                                                          links[49]
+                                                          links[46]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          prices[48]
+                                                          formatPrices[48]
                                                         }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[49]
+                                                          formatPrices[49]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[50]
-}</span></td>
+    formatPrices[50]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
                                             <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[50]}><img
+                                                    href=${links[47]}><img
                                                         width="100%" src=${
-                                                          links[51]
+                                                          links[48]
                                                         }
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[51]
+                                                                  formatPrices[51]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[52]
+                                                          formatPrices[52]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[53]
-}</span></td>
+    formatPrices[53]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -708,23 +678,11 @@ prices[53]
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[52]}
+                                                    href=${links[49]}
                                                     style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
                                                         style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
                                                           text[12]
                                                         }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" class="newsletterContainer">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center"><img width="100%" src=${
-                                              links[53]
-                                            }
-                                                    style="display: block;"></td>
                                         </tr>
                                     </table>
                                 </td>
@@ -740,7 +698,7 @@ prices[53]
         <td align="center">
             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                 <tr>
-                    <td align="center" class="newsletterContainer" style="background-color: #fff9f3">
+                    <td align="center" class="newsletterContainer" style="background-color: #f3f2f1">
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
@@ -755,20 +713,70 @@ prices[53]
                         <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                             <tr>
                                 <td align="center"><a
-                                        href=${links[54]}><img
+                                        href=${links[50]}><img
                                             width="100%"
-                                            src=${links[55]}
+                                            src=${links[51]}
                                             style="display: block;"></a></td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" style="background-color: #fff9f3">
+                    <td align="left" style="background-color: #f3f2f1">
                         <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                             <tr>
                                 <td align="center" class="newsletterProductContainer">
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                        <tr>
+                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                    href=${links[52]}><img
+                                                        width="100%" src=${
+                                                          links[53]
+                                                        }
+                                                        style="display: block;"></a>
+                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                    <tr>
+                                                        <td align="left" class="newsletterProductTitleContainer"><span
+                                                                class="newsletterProductTitle">${
+                                                                  formatPrices[54]
+                                                                }</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <span class="newsletterProductTitleLowPrice">${
+                                                              formatPrices[55]
+                                                            }</span>
+                                                            <span class="newsletterProductTitleHightPrice">${
+                                                              formatPrices[56]
+                                                            }</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                    href=${links[54]}><img
+                                                        width="100%" src=${
+                                                          links[55]
+                                                        }
+                                                        style="display: block;"></a>
+                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                    <tr>
+                                                        <td align="left" class="newsletterProductTitleContainer"><span
+                                                                class="newsletterProductTitle">${
+                                                                  formatPrices[57]
+                                                                }</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                          formatPrices[58]
+                                                        }</span>
+                                                        <span class="newsletterProductTitleHightPrice">${
+                                                          formatPrices[59]
+                                                        }</span></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
                                         <tr>
                                             <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
                                                     href=${links[56]}><img
@@ -778,20 +786,16 @@ prices[53]
                                                         style="display: block;"></a>
                                                 <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                                                     <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  prices[54]
-                                                                }</span></td>
+                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
+                                                          formatPrices[60]
+                                                        }</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left">
-                                                            <span class="newsletterProductTitleLowPrice">${
-                                                              prices[55]
-                                                            }</span>
-                                                            <span class="newsletterProductTitleHightPrice">${
-                                                              prices[56]
-                                                            }</span>
-                                                        </td>
+                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                          formatPrices[61]
+                                                        }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[62]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -805,61 +809,15 @@ prices[53]
                                                     <tr>
                                                         <td align="left" class="newsletterProductTitleContainer"><span
                                                                 class="newsletterProductTitle">${
-                                                                  prices[57]
+                                                                  formatPrices[63]
                                                                 }</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[58]
-                                                        }</span>
-                                                        <span class="newsletterProductTitleHightPrice">${
-                                                          prices[59]
-                                                        }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[60]}><img
-                                                        width="100%" src=${
-                                                          links[61]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          prices[60]
-                                                        }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[61]
+                                                          formatPrices[64]
                                                         }</span><span class="newsletterProductTitleHightPrice">${
-prices[62]
-}</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[62]}><img
-                                                        width="100%" src=${
-                                                          links[63]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  prices[63]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          prices[64]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-prices[65]
-}</span></td>
+    formatPrices[65]
+  }</span></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -872,7 +830,7 @@ prices[65]
                                     <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                                         <tr>
                                             <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[64]}
+                                                    href=${links[60]}
                                                     style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
                                                         style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
                                                           text[14]
@@ -886,11 +844,11 @@ prices[65]
                     </td>
                 </tr>
                 <tr>
-                  <td align="center" class="newsletterContainer">
+                  <td align="center" style="background-color: #f3f2f1" class="newsletterContainer">
                       <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                           <tr>
                               <td align="center"><img width="100%" src=${
-                                  links[65]
+                                links[61]
                               }
                                       style="display: block;"></td>
                           </tr>
@@ -901,12 +859,12 @@ prices[65]
         </td>
     </tr>
 </table>
-      ${soonEnding[country]({
-        banner1: links[67],
-        link1: links[66],
-        banner2: links[69],
-        link2: links[68],
-      })}
+${soonEnding[country]({
+  link1: links[62],
+  banner1: links[63],
+  link2: links[64],
+  banner2: links[65],
+})}
     ${footerNew[country](conditions, "landing", id)}
   `;
-  }
+}

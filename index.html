@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/main.css">
-    <link rel="stylesheet" href="./assets/template.css">
+    <link rel="stylesheet" href="./assets/newsletter.css">
+    <link rel="stylesheet" href="./assets/landing.css">
+    <link rel="stylesheet" href="./assets/toast.css">
     <title>Constructor</title>
 </head>
 
@@ -21,6 +23,7 @@
                     <button class="openCampaign">Open campaign</button>
                     <button class="copyFormula">Copy formula</button>
                     <button class="copyTemplate">Copy template</button>
+                    <button class="openEvery">Open every</button>
                     <div>
                         <input type="text" id="products" placeholder="Set products to prarse">
                     </div>
@@ -51,6 +54,69 @@
     </div>
     <script type="module" src="app.js"></script>
     <script type="module" src="./helpers/Parse.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- <script type="module">
+
+        import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+
+        const octokit = new Octokit({
+            auth: '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'
+        })
+
+
+        const api = axios.create({
+            baseURL: 'https://api.github.com/repos/demczenko/newsletter/contents/'
+        })
+
+        async function getProductLink(name) {
+            const products = {}
+
+            const resullt = await api.get("db.json")
+                .then(({ data }) => {
+                    console.log(data);
+                    const sha = data.sha
+                    const path = data.path
+
+                    return axios.get(data.download_url).then(({ data }) => {
+                        for (const key in name) {
+                            products[name[key]] = data.products[name[key]]
+                        }
+
+                        return [products, sha, path]
+                    })
+                })
+
+            return resullt
+        }
+
+        const data = getProductLink([
+            "PAVLOF",
+            "NEGARA",
+            "TAMBORA",
+            "SATAH",
+        ])
+
+        data.then(r => {
+            const [products, sha, path] = r
+            console.log(updateFile(sha, path, "s"))
+        })
+
+        async function updateFile(sha, path, content) {
+
+            return await octokit.request('PUT /repos/demczenko/newsletter/contents/test5.json', {
+                message: 'my commit message',
+                content: btoa(JSON.stringify(content)),
+                headers: {
+                    'X-GitHub-Api-Version': '2022-11-28'
+                }
+            })
+        }
+
+    </script> -->
 </body>
 
 </html>

@@ -4,7 +4,6 @@
 
     overflow-y: scroll;
     height: 100vh;
-    padding: 20px;
 }
 
 .panelPosition {
@@ -96,6 +95,7 @@ li:hover {
 
 
 .error {
+    margin: 1rem;
     padding: .7rem 1.6rem;
     border-radius: 5px;
     background-color: #eee;
