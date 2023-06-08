@@ -14,96 +14,94 @@ export function landing({
   free,
   prices,
   country,
+  pricesXLS,
   conditions,
   formatPrices,
 }) {
   return `
-    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: 0 auto; max-width: 650px;background-color: #ffffff;">
-    <tr>
-        <td align="center">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center"><a
-                            href=${links[0]}><img
-                                width="100%" src=${links[1]}
-                                style="display: block;"></a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center"><a
-                            href=${links[2]}><img
-                                width="100%" src=${links[3]}
-                                style="display: block;"></a></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: #f3f2f1">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
-                      text[0]
-                    }</span></td>
-                </tr>
-                <tr>
-                    <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
-                      text[1]
-                    }</span></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: #f3f2f1">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center" class="newsletterContainer">
-                        <span style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">
-                        ${ code }
-                        </span>
+  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: 0 auto; max-width: 650px;background-color: #ffffff;">
+  <tr>
+      <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center"><a
+                          href=${links[0]}><img
+                              width="100%" src=${links[1]}
+                              style="display: block;"></a></td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center"><a
+                          href=${links[2]}><img
+                              width="100%" src=${links[3]}
+                              style="display: block;"></a></td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center" style="background-color: #ffffff">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
+                    text[0]
+                  }</span></td>
+              </tr>
+              <tr>
+                  <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
+                    text[1]
+                  }</span></td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center" style="background-color: #ffffff">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center" class="newsletterContainer">
+                          <span style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000;">${code}</span>
                     </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: #f3f2f1">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
-                      text[3]
-                    }</span></td>
-                </tr>
-                <tr>
-                    <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
-                      text[4]
-                    }</span></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: #f3f2f1" class="newsletterIntroProducts">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td class="newsletterFreebieTop" align="center">
-                          <a href=${links[5]}>
-                              <img width="100%" src=${
-                                links[6]
-                              } style="display: block;">
-                          </a>
-                          <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center" style="background-color: #ffffff">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
+                    text[3]
+                  }</span></td>
+              </tr>
+              <tr>
+                  <td align="center" class="newsletterContainer"><span class="newsletterParagraph">${
+                    text[4]
+                  }</span></td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center" style="background-color: #ffffff" class="newsletterIntroProducts">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td class="newsletterFreebieTopLeft" align="center"><a
+                          href=${links[5]}><img
+                              width="100%" src=${links[6]}
+                              style="display: block;"></a>
+                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
                               <tr>
                                   <td align="center" class="newsletterProductTitleContainer"><span
-                                          class="newsletterProductTitle">${
-                                            formatPrices[0]
-                                          }</span></td>
+                                          class="newsletterProductTitle">${formatPrices[0].replace(
+                                            "_1",
+                                            ""
+                                          )}</span></td>
                               </tr>
                               <tr>
                                   <td align="center">
@@ -114,756 +112,739 @@ export function landing({
                                   </td>
                               </tr>
                           </table>
-                    </td>
-                    <td class="newsletterFreebieTop" align="center"><a
-                            href=${links[7]}><img
-                                width="100%" src=${links[8]}
-                                style="display: block;"></a>
-                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                <tr>
-                                    <td align="center" class="newsletterProductTitleContainer"><span
-                                            class="newsletterProductTitle">${
-                                              formatPrices[3]
-                                            }</span></td>
-                                </tr>
-                                <tr>
-                                    <td align="center">
-                                        <span class="newsletterProductTitleLowPrice">${free}</span>
-                                        <span class="newsletterProductTitleHightPrice">${
-                                          formatPrices[4]
-                                        }</span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    <td class="newsletterFreebieTop" align="center"><a
-                            href=${links[9]}><img
-                                width="100%" src=${links[10]}
-                                style="display: block;"></a>
-                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                <tr>
-                                    <td align="center" class="newsletterProductTitleContainer"><span
-                                            class="newsletterProductTitle">${
-                                              formatPrices[6]
-                                            }</span></td>
-                                </tr>
-                                <tr>
-                                    <td align="center">
-                                        <span class="newsletterProductTitleLowPrice">${free}</span>
-                                        <span class="newsletterProductTitleHightPrice">${
-                                          formatPrices[7]
-                                        }</span>
-                                    </td>
-                                </tr>
-                            </table>
-                            </td>
-                </tr>
-                <tr>
-                    <td class="newsletterFreebieBottom" align="center"><a
-                            href=${links[11]}><img
-                                width="100%" src=${links[12]}
-                                style="display: block;"></a>
-                                                                    <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                        <tr>
-                            <td align="center" class="newsletterProductTitleContainer"><span
-                                    class="newsletterProductTitle">${
-                                      formatPrices[9]
-                                    }</span></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <span class="newsletterProductTitleLowPrice">${free}</span>
-                                <span class="newsletterProductTitleHightPrice">${
-                                  formatPrices[10]
-                                }</span>
-                            </td>
-                        </tr>
-                    </table>
-                                </td>
-                    <td class="newsletterFreebieBottom" align="center"><a
-                            href=${links[13]}><img
-                                width="100%" src=${links[14]}
-                                style="display: block;"></a>
-                                                                    <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                        <tr>
-                            <td align="center" class="newsletterProductTitleContainer"><span
-                                    class="newsletterProductTitle">${
-                                      formatPrices[12]
-                                    }</span></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <span class="newsletterProductTitleLowPrice">${free}</span>
-                                <span class="newsletterProductTitleHightPrice">${
-                                  formatPrices[13]
-                                }</span>
-                            </td>
-                        </tr>
-                    </table>
-                                </td>
-                    <td class="newsletterFreebieBottom" align="center"><a
-                            href=${links[15]}><img
-                                width="100%" src=${links[16]}
-                                style="display: block;"></a>
-                                                                    <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                        <tr>
-                            <td align="center" class="newsletterProductTitleContainer"><span
-                                    class="newsletterProductTitle">${
-                                      formatPrices[15]
-                                    }</span></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <span class="newsletterProductTitleLowPrice">${free}</span>
-                                <span class="newsletterProductTitleHightPrice">${
-                                  formatPrices[16]
-                                }</span>
-                            </td>
-                        </tr>
-                    </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
+                      </td>
+                  <td class="newsletterFreebieTopRight" align="center"><a
+                          href=${links[7]}><img
+                              width="100%" src=${links[8]}
+                              style="display: block;"></a>
+                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                              <tr>
+                                  <td align="center" class="newsletterProductTitleContainer"><span
+                                          class="newsletterProductTitle">${formatPrices[3].replace(
+                                            "_2",
+                                            ""
+                                          )}</span></td>
+                              </tr>
+                              <tr>
+                                  <td align="center">
+                                      <span class="newsletterProductTitleLowPrice">${free}</span>
+                                      <span class="newsletterProductTitleHightPrice">${
+                                        formatPrices[4]
+                                      }</span>
+                                  </td>
+                              </tr>
+                          </table>
+                          </td>
+              </tr>
+              <tr>
+                  <td class="newsletterFreebieBottomLeft" align="center"><a
+                          href=${links[9]}><img
+                              width="100%" src=${links[10]}
+                              style="display: block;"></a>
+                                                                  <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                      <tr>
+                          <td align="center" class="newsletterProductTitleContainer"><span
+                                  class="newsletterProductTitle">${formatPrices[6].replace(
+                                    "_3",
+                                    ""
+                                  )}</span></td>
+                      </tr>
+                      <tr>
+                          <td align="center">
+                              <span class="newsletterProductTitleLowPrice">${free}</span>
+                              <span class="newsletterProductTitleHightPrice">${
+                                formatPrices[7]
+                              }</span>
+                          </td>
+                      </tr>
+                  </table>
+                              </td>
+                  <td class="newsletterFreebieBottomRight" align="center"><a
+                          href=${links[11]}><img
+                              width="100%" src=${links[12]}
+                              style="display: block;"></a>
+                                                                  <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                      <tr>
+                          <td align="center" class="newsletterProductTitleContainer"><span
+                                  class="newsletterProductTitle">${formatPrices[9].replace(
+                                    "_4",
+                                    ""
+                                  )}</span></td>
+                      </tr>
+                      <tr>
+                          <td align="center">
+                              <span class="newsletterProductTitleLowPrice">${free}</span>
+                              <span class="newsletterProductTitleHightPrice">${
+                                formatPrices[10]
+                              }</span>
+                          </td>
+                      </tr>
+                  </table>
+                  </td>
+              </tr>
 
-    <tr>
-        <td style="background-color: #ffffff" align="center" class="newsletterContainer">
-                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                    <tr>
-                        <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
-                          text[5]
-                        }</span></td>
-                    </tr>
-                </table>
-                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                    <tr>
-                        <td align="left" class="newsletterBottom35px" ><span class="newsletterParagraph">${
-                          text[6]
-                        }</span></td>
-                    </tr>
-                </table>
-                <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                    <tr>
-                        <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
-                          text[7]
-                        }</span></td>
-                    </tr>
-                </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: #ffffff">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="center"><a
-                                        href=${links[17]}><img
-                                            width="100%"
-                                            src=${links[18]}
-                                            style="display: block;"></a></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left">
-                        <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                            <tr>
-                                <td align="center" class="newsletterProductContainer" >
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[19]}><img
-                                                        width="100%" src=${
-                                                          links[20]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[18]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left">
-                                                            <span class="newsletterProductTitleLowPrice">${
-                                                              formatPrices[19]
-                                                            }</span>
-                                                            <span class="newsletterProductTitleHightPrice">${
-                                                              formatPrices[20]
-                                                            }</span>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[21]}><img
-                                                        width="100%" src=${
-                                                          links[22]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[21]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[22]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[23]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[23]}><img
-                                                        width="100%" src=${
-                                                          links[24]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          formatPrices[24]
-                                                        }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[25]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[26]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[25]}><img
-                                                        width="100%" src=${
-                                                          links[26]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[27]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[28]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[29]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" >
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[27]}
-                                                    style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
-                                                        style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
-                                                          text[8]
-                                                        }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center" class="newsletterContainer" style="background-color: #f3f2f1">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
-                                  text[9]
-                                }</span></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="center"><a
-                                        href=${links[28]}><img
-                                            width="100%"
-                                            src=${links[29]}
-                                            style="display: block;"></a></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left" style="background-color: #f3f2f1">
-                        <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                            <tr>
-                                <td align="center" class="newsletterProductContainer">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%">
-                                                <a href=${links[30]}>
-                                                    <img width="100%" src=${
-                                                      links[31]
-                                                    } style="display: block;">
-                                                </a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[30]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left">
-                                                            <span class="newsletterProductTitleLowPrice">${
-                                                              formatPrices[31]
-                                                            }</span>
-                                                            <span class="newsletterProductTitleHightPrice">${
-                                                              formatPrices[32]
-                                                            }</span>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[32]}><img
-                                                        width="100%" src=${
-                                                          links[33]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[33]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[34]
-                                                        }</span>
-                                                        <span class="newsletterProductTitleHightPrice">${
-                                                          formatPrices[35]
-                                                        }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[34]}><img
-                                                        width="100%" src=${
-                                                          links[35]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          formatPrices[36]
-                                                        }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[37]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[38]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[36]}><img
-                                                        width="100%" src=${
-                                                          links[37]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[39]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[40]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[41]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[38]}
-                                                    style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
-                                                        style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
-                                                          text[10]
-                                                        }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center" class="newsletterContainer" style="background-color: #ffffff">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
-                                  text[11]
-                                }</span></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="center"><a
-                                        href=${links[39]}><img
-                                            width="100%"
-                                            src=${links[40]}
-                                            style="display: block;"></a></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left" style="background-color: #ffffff">
-                        <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                            <tr>
-                                <td align="center" class="newsletterProductContainer">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[41]}><img
-                                                        width="100%" src=${
-                                                          links[42]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[42]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left">
-                                                            <span class="newsletterProductTitleLowPrice">${
-                                                              formatPrices[43]
-                                                            }</span>
-                                                            <span class="newsletterProductTitleHightPrice">${
-                                                              formatPrices[44]
-                                                            }</span>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[43]}><img
-                                                        width="100%" src=${
-                                                          links[44]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[45]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[46]
-                                                        }</span>
-                                                        <span class="newsletterProductTitleHightPrice">${
-                                                          formatPrices[47]
-                                                        }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[45]}><img
-                                                        width="100%" src=${
-                                                          links[46]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          formatPrices[48]
-                                                        }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[49]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[50]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[47]}><img
-                                                        width="100%" src=${
-                                                          links[48]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[51]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[52]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[53]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[49]}
-                                                    style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
-                                                        style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
-                                                          text[12]
-                                                        }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
+          </table>
+      </td>
+  </tr>
 
-    <tr>
-        <td align="center">
-            <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                <tr>
-                    <td align="center" class="newsletterContainer" style="background-color: #f3f2f1">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
-                                  text[13]
-                                }</span></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">
-                        <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                            <tr>
-                                <td align="center"><a
-                                        href=${links[50]}><img
-                                            width="100%"
-                                            src=${links[51]}
-                                            style="display: block;"></a></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="left" style="background-color: #f3f2f1">
-                        <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                            <tr>
-                                <td align="center" class="newsletterProductContainer">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[52]}><img
-                                                        width="100%" src=${
-                                                          links[53]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[54]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left">
-                                                            <span class="newsletterProductTitleLowPrice">${
-                                                              formatPrices[55]
-                                                            }</span>
-                                                            <span class="newsletterProductTitleHightPrice">${
-                                                              formatPrices[56]
-                                                            }</span>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[54]}><img
-                                                        width="100%" src=${
-                                                          links[55]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[57]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[58]
-                                                        }</span>
-                                                        <span class="newsletterProductTitleHightPrice">${
-                                                          formatPrices[59]
-                                                        }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
-                                                    href=${links[56]}><img
-                                                        width="100%" src=${
-                                                          links[57]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
-                                                          formatPrices[60]
-                                                        }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[61]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[62]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
-                                                    href=${links[58]}><img
-                                                        width="100%" src=${
-                                                          links[59]
-                                                        }
-                                                        style="display: block;"></a>
-                                                <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
-                                                    <tr>
-                                                        <td align="left" class="newsletterProductTitleContainer"><span
-                                                                class="newsletterProductTitle">${
-                                                                  formatPrices[63]
-                                                                }</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span class="newsletterProductTitleLowPrice">${
-                                                          formatPrices[64]
-                                                        }</span><span class="newsletterProductTitleHightPrice">${
-    formatPrices[65]
-  }</span></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center">
-                                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                                        <tr>
-                                            <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
-                                                    href=${links[60]}
-                                                    style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
-                                                        style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
-                                                          text[14]
-                                                        }</span></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
+  <tr>
+      <td align="center" class="newsletterContainer">
+          <img width="100%" src=https://beliani.info/newsletter/2022/line.jpg style="display: block;">
+      </td>
+  </tr>
 
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                  <td align="center" style="background-color: #f3f2f1" class="newsletterContainer">
+  <tr>
+      <td style="background-color: #ffffff" align="center" class="newsletterContainer">
+              <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                  <tr>
+                      <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
+                        text[5]
+                      }</span></td>
+                  </tr>
+              </table>
+              <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                  <tr>
+                      <td align="left" class="newsletterBottom35px" ><span class="newsletterParagraph">${
+                        text[6]
+                      }</span></td>
+                  </tr>
+              </table>
+              <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                  <tr>
+                      <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
+                        text[7]
+                      }</span></td>
+                  </tr>
+              </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center" style="background-color: #ffffff">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center">
                       <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
                           <tr>
-                              <td align="center"><img width="100%" src=${
-                                links[61]
-                              }
-                                      style="display: block;"></td>
+                              <td align="center"><a
+                                      href=${links[13]}><img
+                                          width="100%"
+                                          src=${links[14]}
+                                          style="display: block;"></a></td>
                           </tr>
                       </table>
                   </td>
               </tr>
-            </table>
-        </td>
-    </tr>
+              <tr>
+                  <td align="left" style="background-color: #fff9f2">
+                      <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                          <tr>
+                              <td align="center" class="newsletterProductContainer" >
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[15]}><img
+                                                      width="100%" src=${
+                                                        links[16]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[12]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left">
+                                                          <span class="newsletterProductTitleLowPrice">${
+                                                            formatPrices[13]
+                                                          }</span>
+                                                          <span class="newsletterProductTitleHightPrice">${
+                                                            formatPrices[14]
+                                                          }</span>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[17]}><img
+                                                      width="100%" src=${
+                                                        links[18]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[15]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[16]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[17]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[19]}><img
+                                                      width="100%" src=${
+                                                        links[20]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
+                                                        formatPrices[18]
+                                                      }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[19]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[20]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[21]}><img
+                                                      width="100%" src=${
+                                                        links[22]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[21]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[22]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[23]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center" >
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
+                                                  href=${links[23]}
+                                                  style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
+                                                      style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
+                                                        text[8]
+                                                      }</span></a></td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center" class="newsletterContainer">
+                                  <img width="100%" src=https://beliani.info/newsletter/2022/230605line1.jpg style="display: block;">
+                              </td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center" class="newsletterContainer" style="background-color: #fff9f2">
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                          <tr>
+                              <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
+                                text[9]
+                              }</span></td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="center">
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                          <tr>
+                              <td align="center"><a
+                                      href=${links[24]}><img
+                                          width="100%"
+                                          src=${links[25]}
+                                          style="display: block;"></a></td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="left" style="background-color: #f9efee">
+                      <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                          <tr>
+                              <td align="center"  class="newsletterProductContainer">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%">
+                                              <a href=${links[26]}>
+                                                  <img width="100%" src=${
+                                                    links[27]
+                                                  } style="display: block;">
+                                              </a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[24]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left">
+                                                          <span class="newsletterProductTitleLowPrice">${
+                                                            formatPrices[25]
+                                                          }</span>
+                                                          <span class="newsletterProductTitleHightPrice">${
+                                                            formatPrices[26]
+                                                          }</span>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[28]}><img
+                                                      width="100%" src=${
+                                                        links[29]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[27]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[28]
+                                                      }</span>
+                                                      <span class="newsletterProductTitleHightPrice">${
+                                                        formatPrices[29]
+                                                      }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[30]}><img
+                                                      width="100%" src=${
+                                                        links[31]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
+                                                        formatPrices[30]
+                                                      }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[31]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[32]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[32]}><img
+                                                      width="100%" src=${
+                                                        links[33]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[33]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[34]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[35]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
+                                                  href=${links[34]}
+                                                  style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
+                                                      style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
+                                                        text[10]
+                                                      }</span></a></td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center" class="newsletterContainer">
+                                  <img width="100%" src=https://beliani.info/newsletter/2022/230605line2.jpg style="display: block;">
+                              </td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+      <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center" class="newsletterContainer" style="background-color: #f9efee">
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                          <tr>
+                              <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
+                                text[11]
+                              }</span></td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="center">
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                          <tr>
+                              <td align="center"><a
+                                      href=${links[35]}><img
+                                          width="100%"
+                                          src=${links[36]}
+                                          style="display: block;"></a></td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="left" style="background-color: #fffcfb">
+                      <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                          <tr>
+                              <td align="center" class="newsletterProductContainer">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[37]}><img
+                                                      width="100%" src=${
+                                                        links[38]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[36]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left">
+                                                          <span class="newsletterProductTitleLowPrice">${
+                                                            formatPrices[37]
+                                                          }</span>
+                                                          <span class="newsletterProductTitleHightPrice">${
+                                                            formatPrices[38]
+                                                          }</span>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[39]}><img
+                                                      width="100%" src=${
+                                                        links[40]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[39]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[40]
+                                                      }</span>
+                                                      <span class="newsletterProductTitleHightPrice">${
+                                                        formatPrices[41]
+                                                      }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[41]}><img
+                                                      width="100%" src=${
+                                                        links[42]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
+                                                        formatPrices[42]
+                                                      }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[43]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[44]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[43]}><img
+                                                      width="100%" src=${
+                                                        links[44]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[45]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[46]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[47]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
+                                                  href=${links[45]}
+                                                  style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
+                                                      style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
+                                                        text[12]
+                                                      }</span></a></td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center" class="newsletterContainer">
+                                  <img width="100%" src=https://beliani.info/newsletter/2022/230605line3.jpg style="display: block;">
+                              </td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+
+  <tr>
+      <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+              <tr>
+                  <td align="center" class="newsletterContainer" style="background-color: #fffcfb">
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                          <tr>
+                              <td align="left" class="newsletterBottom35px" ><span class="newsletterTitle">${
+                                text[13]
+                              }</span></td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="center">
+                      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                          <tr>
+                              <td align="center"><a
+                                      href=${links[46]}><img
+                                          width="100%"
+                                          src=${links[47]}
+                                          style="display: block;"></a></td>
+                          </tr>
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="left" style="background-color: #ffffff">
+                      <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                          <tr>
+                              <td align="center" class="newsletterProductContainer">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[48]}><img
+                                                      width="100%" src=${
+                                                        links[49]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[48]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left">
+                                                          <span class="newsletterProductTitleLowPrice">${
+                                                            formatPrices[49]
+                                                          }</span>
+                                                          <span class="newsletterProductTitleHightPrice">${
+                                                            formatPrices[50]
+                                                          }</span>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[50]}><img
+                                                      width="100%" src=${
+                                                        links[51]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[51]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[52]
+                                                      }</span>
+                                                      <span class="newsletterProductTitleHightPrice">${
+                                                        formatPrices[53]
+                                                      }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" class="newsletterProductContainerLEFT" width="50%"><a
+                                                  href=${links[52]}><img
+                                                      width="100%" src=${
+                                                        links[53]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span class="newsletterProductTitle">${
+                                                        formatPrices[54]
+                                                      }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[55]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[56]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                          <td align="center" class="newsletterProductContainerRIGHT" width="50%"><a
+                                                  href=${links[54]}><img
+                                                      width="100%" src=${
+                                                        links[55]
+                                                      }
+                                                      style="display: block;"></a>
+                                              <table cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                  <tr>
+                                                      <td align="left" class="newsletterProductTitleContainer"><span
+                                                              class="newsletterProductTitle">${
+                                                                formatPrices[57]
+                                                              }</span></td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td align="left"><span class="newsletterProductTitleLowPrice">${
+                                                        formatPrices[58]
+                                                      }</span><span class="newsletterProductTitleHightPrice">${
+    formatPrices[59]
+  }</span></td>
+                                                  </tr>
+                                              </table>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td align="center">
+                                  <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                                      <tr>
+                                          <td align="center" class="newsletterCtaContainer" style="text-align: center;"><a
+                                                  href=${links[56]}
+                                                  style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;"><span
+                                                      style="font-family: Open Sans, sans-serif; font-size: 20px; line-height: 1.25; color: #000000; text-decoration: underline;">${
+                                                        text[14]
+                                                      }</span></a></td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+
+                      </table>
+                  </td>
+              </tr>
+              <tr>
+                <td align="center" style="background-color: #ffffff" class="newsletterContainer">
+                    <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                        <tr>
+                            <td align="center"><img width="100%" src=${
+                              links[57]
+                            }
+                                    style="display: block;"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+          </table>
+      </td>
+  </tr>
 </table>
 ${soonEnding[country]({
-  link1: links[62],
-  banner1: links[63],
-  link2: links[64],
-  banner2: links[65],
+  link1: links[58],
+  banner1: links[59],
+  link2: links[60],
+  banner2: links[61],
 })}
     ${footerNew[country](conditions, "landing", id)}
   `;

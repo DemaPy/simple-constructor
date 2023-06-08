@@ -1,2290 +1,2082 @@
 export default {
-  ATHANI: [
-    {
-      country: "Beliani DE",
-      highPrice: "35.00",
-      lowPrice: "24.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "115.00",
-      lowPrice: "89.99",
-      differenceBetweenPrices: 25.010000000000005,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "10490.00",
-      lowPrice: "8390.00",
-      differenceBetweenPrices: 2100,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "500.00",
-      lowPrice: "395.00",
-      differenceBetweenPrices: 105,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "240.00",
-      lowPrice: "189.00",
-      differenceBetweenPrices: 51,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "550.00",
-      lowPrice: "439.00",
-      differenceBetweenPrices: 111,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "440.00",
-      lowPrice: "349.00",
-      differenceBetweenPrices: 91,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
+  "LOCRI_1": [
+      {
+          "country": "Beliani DE",
+          "highPrice": null,
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": -60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": -70
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "290.00",
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "32690.00",
+          "lowPrice": "26190.00",
+          "differenceBetweenPrices": 6500
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": -70
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1000.00",
+          "lowPrice": "805.00",
+          "differenceBetweenPrices": 195
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "590.00",
+          "lowPrice": "459.00",
+          "differenceBetweenPrices": 131
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "1630.00",
+          "lowPrice": "1299.00",
+          "differenceBetweenPrices": 331
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "1830.00",
+          "lowPrice": "1469.00",
+          "differenceBetweenPrices": 361
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      }
   ],
-  ALUVA: [
-    {
-      country: "Beliani DE",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "35.00",
-      lowPrice: "24.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "90.00",
-      lowPrice: "69.99",
-      differenceBetweenPrices: 20.010000000000005,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "7490.00",
-      lowPrice: "5990.00",
-      differenceBetweenPrices: 1500,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "340.00",
-      lowPrice: "265.00",
-      differenceBetweenPrices: 75,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "180.00",
-      lowPrice: "139.00",
-      differenceBetweenPrices: 41,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "440.00",
-      lowPrice: "349.00",
-      differenceBetweenPrices: 91,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "35.00",
-      lowPrice: "24.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "780.00",
-      lowPrice: "619.00",
-      differenceBetweenPrices: 161,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
-    {
-      country: "Beliani",
-      highPrice: "25.00",
-      lowPrice: "19.99",
-      differenceBetweenPrices: 5.010000000000002,
-    },
+  "LOCRI_2": [
+      {
+          "country": "Beliani DE",
+          "highPrice": null,
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": -60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": -70
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "290.00",
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "32790.00",
+          "lowPrice": "26190.00",
+          "differenceBetweenPrices": 6600
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": -70
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1000.00",
+          "lowPrice": "805.00",
+          "differenceBetweenPrices": 195
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "590.00",
+          "lowPrice": "459.00",
+          "differenceBetweenPrices": 131
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "1630.00",
+          "lowPrice": "1299.00",
+          "differenceBetweenPrices": 331
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "1830.00",
+          "lowPrice": "1469.00",
+          "differenceBetweenPrices": 361
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      }
   ],
-  FAZILPUR: [
-    {
-      country: "Beliani DE",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "70.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 20.009999999999998,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "175.00",
-      lowPrice: "139.99",
-      differenceBetweenPrices: 35.00999999999999,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "18290.00",
-      lowPrice: "14590.00",
-      differenceBetweenPrices: 3700,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "840.00",
-      lowPrice: "675.00",
-      differenceBetweenPrices: 165,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "380.00",
-      lowPrice: "299.00",
-      differenceBetweenPrices: 81,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "900.00",
-      lowPrice: "719.00",
-      differenceBetweenPrices: 181,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "75.00",
-      lowPrice: "59.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "700.00",
-      lowPrice: "559.00",
-      differenceBetweenPrices: 141,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
+  "LOCRI_3": [
+      {
+          "country": "Beliani DE",
+          "highPrice": null,
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": -60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": -70
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "290.00",
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "32690.00",
+          "lowPrice": "26190.00",
+          "differenceBetweenPrices": 6500
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": -70
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1000.00",
+          "lowPrice": "805.00",
+          "differenceBetweenPrices": 195
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "590.00",
+          "lowPrice": "459.00",
+          "differenceBetweenPrices": 131
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "1630.00",
+          "lowPrice": "1299.00",
+          "differenceBetweenPrices": 331
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "1830.00",
+          "lowPrice": "1469.00",
+          "differenceBetweenPrices": 361
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      }
   ],
-  NADRA: [
-    {
-      country: "Beliani DE",
-      highPrice: "40.00",
-      lowPrice: "29.99",
-      differenceBetweenPrices: 10.010000000000002,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "50.00",
-      lowPrice: "39.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "50.00",
-      lowPrice: "39.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "115.00",
-      lowPrice: "89.99",
-      differenceBetweenPrices: 25.010000000000005,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "12390.00",
-      lowPrice: "9890.00",
-      differenceBetweenPrices: 2500,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "50.00",
-      lowPrice: "39.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "660.00",
-      lowPrice: "525.00",
-      differenceBetweenPrices: 135,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "280.00",
-      lowPrice: "219.00",
-      differenceBetweenPrices: 61,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "600.00",
-      lowPrice: "479.00",
-      differenceBetweenPrices: 121,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "540.00",
-      lowPrice: "429.00",
-      differenceBetweenPrices: 111,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani",
-      highPrice: "45.00",
-      lowPrice: "34.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
+  "LOCRI_4": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "69.99",
+          "lowPrice": "39.99",
+          "differenceBetweenPrices": 29
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "50.00",
+          "lowPrice": "39.99",
+          "differenceBetweenPrices": 10
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": -50
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "70.00",
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "90.00",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "70.00",
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "70.00",
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "210.00",
+          "lowPrice": "169.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "20190.00",
+          "lowPrice": "16090.00",
+          "differenceBetweenPrices": 4100
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": -50
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "660.00",
+          "lowPrice": "535.00",
+          "differenceBetweenPrices": 125
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "390.00",
+          "lowPrice": "309.00",
+          "differenceBetweenPrices": 81
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "1130.00",
+          "lowPrice": "899.00",
+          "differenceBetweenPrices": 231
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "70.00",
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "1190.00",
+          "lowPrice": "969.00",
+          "differenceBetweenPrices": 241
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "50.00",
+          "lowPrice": "39.99",
+          "differenceBetweenPrices": 10
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "70.00",
+          "lowPrice": "49.99",
+          "differenceBetweenPrices": 20
+      }
   ],
-  "KALADY II": [
-    {
-      country: "Beliani DE",
-      highPrice: "70.00",
-      lowPrice: "54.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "80.00",
-      lowPrice: "59.99",
-      differenceBetweenPrices: 20.009999999999998,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "70.00",
-      lowPrice: "54.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "75.00",
-      lowPrice: "59.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "80.00",
-      lowPrice: "64.99",
-      differenceBetweenPrices: 15.010000000000005,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "80.00",
-      lowPrice: "59.99",
-      differenceBetweenPrices: 20.009999999999998,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "75.00",
-      lowPrice: "59.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "23990.00",
-      lowPrice: "19190.00",
-      differenceBetweenPrices: 4800,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "75.00",
-      lowPrice: "59.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "990.00",
-      lowPrice: "795.00",
-      differenceBetweenPrices: 195,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "470.00",
-      lowPrice: "369.00",
-      differenceBetweenPrices: 101,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "1190.00",
-      lowPrice: "949.00",
-      differenceBetweenPrices: 241,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "90.00",
-      lowPrice: "69.99",
-      differenceBetweenPrices: 20.010000000000005,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "860.00",
-      lowPrice: "679.00",
-      differenceBetweenPrices: 181,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "70.00",
-      lowPrice: "54.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani",
-      highPrice: "70.00",
-      lowPrice: "54.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
+  "BORELLO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "1679.99",
+          "lowPrice": "1539.99",
+          "differenceBetweenPrices": 140
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "2050.00",
+          "lowPrice": "1639.99",
+          "differenceBetweenPrices": 410
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "1689.99",
+          "differenceBetweenPrices": -1690
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "2099.00",
+          "lowPrice": "1679.99",
+          "differenceBetweenPrices": 419
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "1950.00",
+          "lowPrice": "1539.99",
+          "differenceBetweenPrices": 410
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "2090.00",
+          "lowPrice": "1669.99",
+          "differenceBetweenPrices": 420
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "2130.00",
+          "lowPrice": "1699.99",
+          "differenceBetweenPrices": 450
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "8320.00",
+          "lowPrice": "6649.99",
+          "differenceBetweenPrices": 1670
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "887390.00",
+          "lowPrice": "709890.00",
+          "differenceBetweenPrices": 177500
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "1609.99",
+          "differenceBetweenPrices": -1610
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "24070.00",
+          "lowPrice": "19255.00",
+          "differenceBetweenPrices": 4815
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "16500.00",
+          "lowPrice": "13179.00",
+          "differenceBetweenPrices": 3321
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "47300.00",
+          "lowPrice": "37899.00",
+          "differenceBetweenPrices": 9401
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "2100.00",
+          "lowPrice": "1679.99",
+          "differenceBetweenPrices": 420
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "28880.00",
+          "lowPrice": "23109.00",
+          "differenceBetweenPrices": 5771
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "2040.00",
+          "lowPrice": "1629.99",
+          "differenceBetweenPrices": 410
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "2250.00",
+          "lowPrice": "1799.99",
+          "differenceBetweenPrices": 450
+      }
   ],
-  GOJRA: [
-    {
-      country: "Beliani DE",
-      highPrice: "50.00",
-      lowPrice: "39.99",
-      differenceBetweenPrices: 10.009999999999998,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "70.00",
-      lowPrice: "54.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "170.00",
-      lowPrice: "134.99",
-      differenceBetweenPrices: 35.00999999999999,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "17690.00",
-      lowPrice: "14090.00",
-      differenceBetweenPrices: 3600,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "65.00",
-      lowPrice: "49.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "820.00",
-      lowPrice: "655.00",
-      differenceBetweenPrices: 165,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "370.00",
-      lowPrice: "289.00",
-      differenceBetweenPrices: 81,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "870.00",
-      lowPrice: "689.00",
-      differenceBetweenPrices: 181,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "70.00",
-      lowPrice: "54.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "690.00",
-      lowPrice: "549.00",
-      differenceBetweenPrices: 141,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
-    {
-      country: "Beliani",
-      highPrice: "60.00",
-      lowPrice: "44.99",
-      differenceBetweenPrices: 15.009999999999998,
-    },
+  "RAVELLO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "919.99",
+          "lowPrice": "859.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "1140.00",
+          "lowPrice": "909.99",
+          "differenceBetweenPrices": 230
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "959.99",
+          "differenceBetweenPrices": -960
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "1170.00",
+          "lowPrice": "929.99",
+          "differenceBetweenPrices": 240
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "1080.00",
+          "lowPrice": "859.99",
+          "differenceBetweenPrices": 220
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "1100.00",
+          "lowPrice": "889.99",
+          "differenceBetweenPrices": 210
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "1140.00",
+          "lowPrice": "909.99",
+          "differenceBetweenPrices": 230
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "4330.00",
+          "lowPrice": "3459.99",
+          "differenceBetweenPrices": 870
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "478190.00",
+          "lowPrice": "382490.00",
+          "differenceBetweenPrices": 95700
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "839.99",
+          "differenceBetweenPrices": -840
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "13080.00",
+          "lowPrice": "10465.00",
+          "differenceBetweenPrices": 2615
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "9590.00",
+          "lowPrice": "7569.00",
+          "differenceBetweenPrices": 2021
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "25000.00",
+          "lowPrice": "19999.00",
+          "differenceBetweenPrices": 5001
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "1170.00",
+          "lowPrice": "939.99",
+          "differenceBetweenPrices": 230
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "16300.00",
+          "lowPrice": "13039.00",
+          "differenceBetweenPrices": 3261
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "1120.00",
+          "lowPrice": "889.99",
+          "differenceBetweenPrices": 230
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "1250.00",
+          "lowPrice": "999.99",
+          "differenceBetweenPrices": 250
+      }
   ],
-  MAGALIA: [
-    {
-      country: "Beliani DE",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "850.00",
-      lowPrice: "669.99",
-      differenceBetweenPrices: 180.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "90190.00",
-      lowPrice: "72090.00",
-      differenceBetweenPrices: 18100,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "2380.00",
-      lowPrice: "1905.00",
-      differenceBetweenPrices: 475,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "1600.00",
-      lowPrice: "1279.00",
-      differenceBetweenPrices: 321,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "4570.00",
-      lowPrice: "3649.00",
-      differenceBetweenPrices: 921,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "4360.00",
-      lowPrice: "3489.00",
-      differenceBetweenPrices: 871,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
+  "VITTORIA XL": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "1209.99",
+          "lowPrice": "1149.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "1550.00",
+          "lowPrice": "1239.99",
+          "differenceBetweenPrices": 310
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "1299.99",
+          "differenceBetweenPrices": -1300
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "1600.00",
+          "lowPrice": "1279.99",
+          "differenceBetweenPrices": 320
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "1500.00",
+          "lowPrice": "1189.99",
+          "differenceBetweenPrices": 310
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "1560.00",
+          "lowPrice": "1249.99",
+          "differenceBetweenPrices": 310
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "1590.00",
+          "lowPrice": "1269.99",
+          "differenceBetweenPrices": 320
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "6000.00",
+          "lowPrice": "4799.99",
+          "differenceBetweenPrices": 1200
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "644990.00",
+          "lowPrice": "515990.00",
+          "differenceBetweenPrices": 129000
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "1199.99",
+          "differenceBetweenPrices": -1200
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "17870.00",
+          "lowPrice": "14125.00",
+          "differenceBetweenPrices": 3745
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "12760.00",
+          "lowPrice": "10079.00",
+          "differenceBetweenPrices": 2681
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "34380.00",
+          "lowPrice": "27499.00",
+          "differenceBetweenPrices": 6881
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "1610.00",
+          "lowPrice": "1289.99",
+          "differenceBetweenPrices": 320
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "21540.00",
+          "lowPrice": "17229.00",
+          "differenceBetweenPrices": 4311
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "1490.00",
+          "lowPrice": "1189.99",
+          "differenceBetweenPrices": 300
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "1690.00",
+          "lowPrice": "1349.99",
+          "differenceBetweenPrices": 340
+      }
   ],
-  BROOKVILLE: [
-    {
-      country: "Beliani DE",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "270.00",
-      lowPrice: "209.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1180.00",
-      lowPrice: "939.99",
-      differenceBetweenPrices: 240.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "124890.00",
-      lowPrice: "99990.00",
-      differenceBetweenPrices: 24900,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "3230.00",
-      lowPrice: "2585.00",
-      differenceBetweenPrices: 645,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "2220.00",
-      lowPrice: "1779.00",
-      differenceBetweenPrices: 441,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "6320.00",
-      lowPrice: "5099.00",
-      differenceBetweenPrices: 1221,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "5300.00",
-      lowPrice: "4239.00",
-      differenceBetweenPrices: 1061,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "330.00",
-      lowPrice: "259.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
+  "FRASCATI": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "989.99",
+          "lowPrice": "919.99",
+          "differenceBetweenPrices": 70
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "1230.00",
+          "lowPrice": "979.99",
+          "differenceBetweenPrices": 250
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "1029.99",
+          "differenceBetweenPrices": -1030
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "1240.00",
+          "lowPrice": "989.99",
+          "differenceBetweenPrices": 250
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "1220.00",
+          "lowPrice": "919.99",
+          "differenceBetweenPrices": 300
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "1220.00",
+          "lowPrice": "969.99",
+          "differenceBetweenPrices": 250
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "1190.00",
+          "lowPrice": "949.99",
+          "differenceBetweenPrices": 240
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "4680.00",
+          "lowPrice": "3739.99",
+          "differenceBetweenPrices": 940
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "514090.00",
+          "lowPrice": "411290.00",
+          "differenceBetweenPrices": 102800
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "899.99",
+          "differenceBetweenPrices": -900
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "14310.00",
+          "lowPrice": "11455.00",
+          "differenceBetweenPrices": 2855
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "10190.00",
+          "lowPrice": "8049.00",
+          "differenceBetweenPrices": 2141
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "25380.00",
+          "lowPrice": "20299.00",
+          "differenceBetweenPrices": 5081
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "1250.00",
+          "lowPrice": "999.99",
+          "differenceBetweenPrices": 250
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "16910.00",
+          "lowPrice": "13529.00",
+          "differenceBetweenPrices": 3381
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "1090.00",
+          "lowPrice": "869.99",
+          "differenceBetweenPrices": 220
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "1370.00",
+          "lowPrice": "1089.99",
+          "differenceBetweenPrices": 280
+      }
   ],
-  LOVERNA: [
-    {
-      country: "Beliani DE",
-      highPrice: "350.00",
-      lowPrice: "279.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "420.00",
-      lowPrice: "329.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "440.00",
-      lowPrice: "349.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1440.00",
-      lowPrice: "1149.99",
-      differenceBetweenPrices: 290.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "168790.00",
-      lowPrice: "135090.00",
-      differenceBetweenPrices: 33700,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "480.00",
-      lowPrice: "379.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "4850.00",
-      lowPrice: "3835.00",
-      differenceBetweenPrices: 1015,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "3290.00",
-      lowPrice: "2629.00",
-      differenceBetweenPrices: 661,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "8530.00",
-      lowPrice: "6849.00",
-      differenceBetweenPrices: 1681,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "6300.00",
-      lowPrice: "5039.00",
-      differenceBetweenPrices: 1261,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "400.00",
-      lowPrice: "319.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "400.00",
-      lowPrice: "319.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
+  "TOLVE": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "819.99",
+          "lowPrice": "579.99",
+          "differenceBetweenPrices": 240
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "770.00",
+          "lowPrice": "609.99",
+          "differenceBetweenPrices": 160
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "669.99",
+          "differenceBetweenPrices": -670
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "800.00",
+          "lowPrice": "639.99",
+          "differenceBetweenPrices": 160
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "730.00",
+          "lowPrice": "579.99",
+          "differenceBetweenPrices": 150
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "750.00",
+          "lowPrice": "599.99",
+          "differenceBetweenPrices": 150
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "790.00",
+          "lowPrice": "629.99",
+          "differenceBetweenPrices": 160
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "2770.00",
+          "lowPrice": "2209.99",
+          "differenceBetweenPrices": 560
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "319690.00",
+          "lowPrice": "255790.00",
+          "differenceBetweenPrices": 63900
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "639.99",
+          "differenceBetweenPrices": -640
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "9050.00",
+          "lowPrice": "7155.00",
+          "differenceBetweenPrices": 1895
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "6540.00",
+          "lowPrice": "5239.00",
+          "differenceBetweenPrices": 1301
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "15750.00",
+          "lowPrice": "12599.00",
+          "differenceBetweenPrices": 3151
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "800.00",
+          "lowPrice": "639.99",
+          "differenceBetweenPrices": 160
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "11980.00",
+          "lowPrice": "9589.00",
+          "differenceBetweenPrices": 2391
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "730.00",
+          "lowPrice": "579.99",
+          "differenceBetweenPrices": 150
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "850.00",
+          "lowPrice": "679.99",
+          "differenceBetweenPrices": 170
+      }
   ],
-  AUGUSTA: [
-    {
-      country: "Beliani DE",
-      highPrice: "350.00",
-      lowPrice: "279.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "420.00",
-      lowPrice: "329.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1430.00",
-      lowPrice: "1139.99",
-      differenceBetweenPrices: 290.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "165890.00",
-      lowPrice: "132690.00",
-      differenceBetweenPrices: 33200,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "4810.00",
-      lowPrice: "3795.00",
-      differenceBetweenPrices: 1015,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "3260.00",
-      lowPrice: "2609.00",
-      differenceBetweenPrices: 651,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "7090.00",
-      lowPrice: "5699.00",
-      differenceBetweenPrices: 1391,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "6000.00",
-      lowPrice: "4799.00",
-      differenceBetweenPrices: 1201,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
+  "GROSSETO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "1689.99",
+          "lowPrice": "1479.99",
+          "differenceBetweenPrices": 210
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "1990.00",
+          "lowPrice": "1589.99",
+          "differenceBetweenPrices": 400
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "1669.99",
+          "differenceBetweenPrices": -1670
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "2100.00",
+          "lowPrice": "1679.99",
+          "differenceBetweenPrices": 420
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "1820.00",
+          "lowPrice": "1449.99",
+          "differenceBetweenPrices": 370
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "1980.00",
+          "lowPrice": "1579.99",
+          "differenceBetweenPrices": 400
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "2050.00",
+          "lowPrice": "1639.99",
+          "differenceBetweenPrices": 410
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "7970.00",
+          "lowPrice": "6369.99",
+          "differenceBetweenPrices": 1600
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "879790.00",
+          "lowPrice": "703890.00",
+          "differenceBetweenPrices": 175900
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "1579.99",
+          "differenceBetweenPrices": -1580
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "22860.00",
+          "lowPrice": "18285.00",
+          "differenceBetweenPrices": 4575
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "16840.00",
+          "lowPrice": "13299.00",
+          "differenceBetweenPrices": 3541
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "45250.00",
+          "lowPrice": "36199.00",
+          "differenceBetweenPrices": 9051
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "2140.00",
+          "lowPrice": "1639.99",
+          "differenceBetweenPrices": 500
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "27060.00",
+          "lowPrice": "21649.00",
+          "differenceBetweenPrices": 5411
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "1940.00",
+          "lowPrice": "1549.99",
+          "differenceBetweenPrices": 390
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "2230.00",
+          "lowPrice": "1799.99",
+          "differenceBetweenPrices": 430
+      }
   ],
-  FLORENTINE: [
-    {
-      country: "Beliani DE",
-      highPrice: "630.00",
-      lowPrice: "489.99",
-      differenceBetweenPrices: 140.01,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "690.00",
-      lowPrice: "539.99",
-      differenceBetweenPrices: 150.01,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "680.00",
-      lowPrice: "529.99",
-      differenceBetweenPrices: 150.01,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "720.00",
-      lowPrice: "569.99",
-      differenceBetweenPrices: 150.01,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "650.00",
-      lowPrice: "519.99",
-      differenceBetweenPrices: 130.01,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "680.00",
-      lowPrice: "539.99",
-      differenceBetweenPrices: 140.01,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "690.00",
-      lowPrice: "549.99",
-      differenceBetweenPrices: 140.01,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "2390.00",
-      lowPrice: "1839.99",
-      differenceBetweenPrices: 550.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "258190.00",
-      lowPrice: "206590.00",
-      differenceBetweenPrices: 51600,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "680.00",
-      lowPrice: "539.99",
-      differenceBetweenPrices: 140.01,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "7560.00",
-      lowPrice: "6055.00",
-      differenceBetweenPrices: 1505,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "5560.00",
-      lowPrice: "4449.00",
-      differenceBetweenPrices: 1111,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "13830.00",
-      lowPrice: "11099.00",
-      differenceBetweenPrices: 2731,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "700.00",
-      lowPrice: "559.99",
-      differenceBetweenPrices: 140.01,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "10410.00",
-      lowPrice: "8329.00",
-      differenceBetweenPrices: 2081,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "640.00",
-      lowPrice: "509.99",
-      differenceBetweenPrices: 130.01,
-    },
-    {
-      country: "Beliani",
-      highPrice: "750.00",
-      lowPrice: "589.99",
-      differenceBetweenPrices: 160.01,
-    },
+  "CALVI": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "629.99",
+          "lowPrice": "589.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "790.00",
+          "lowPrice": "629.99",
+          "differenceBetweenPrices": 160
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "679.99",
+          "differenceBetweenPrices": -680
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "830.00",
+          "lowPrice": "659.99",
+          "differenceBetweenPrices": 170
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "820.00",
+          "lowPrice": "609.99",
+          "differenceBetweenPrices": 210
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "770.00",
+          "lowPrice": "619.99",
+          "differenceBetweenPrices": 150
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "790.00",
+          "lowPrice": "629.99",
+          "differenceBetweenPrices": 160
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "2820.00",
+          "lowPrice": "2249.99",
+          "differenceBetweenPrices": 570
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "321190.00",
+          "lowPrice": "256990.00",
+          "differenceBetweenPrices": 64200
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "569.99",
+          "differenceBetweenPrices": -570
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "9190.00",
+          "lowPrice": "7345.00",
+          "differenceBetweenPrices": 1845
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "6600.00",
+          "lowPrice": "5209.00",
+          "differenceBetweenPrices": 1391
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "16380.00",
+          "lowPrice": "13099.00",
+          "differenceBetweenPrices": 3281
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "850.00",
+          "lowPrice": "679.99",
+          "differenceBetweenPrices": 170
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "11550.00",
+          "lowPrice": "9239.00",
+          "differenceBetweenPrices": 2311
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "740.00",
+          "lowPrice": "589.99",
+          "differenceBetweenPrices": 150
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "870.00",
+          "lowPrice": "689.99",
+          "differenceBetweenPrices": 180
+      }
   ],
-  TOGO: [
-    {
-      country: "Beliani DE",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "350.00",
-      lowPrice: "279.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1070.00",
-      lowPrice: "849.99",
-      differenceBetweenPrices: 220.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "129190.00",
-      lowPrice: "103390.00",
-      differenceBetweenPrices: 25800,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "3880.00",
-      lowPrice: "3065.00",
-      differenceBetweenPrices: 815,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "2600.00",
-      lowPrice: "2079.00",
-      differenceBetweenPrices: 521,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "6070.00",
-      lowPrice: "4849.00",
-      differenceBetweenPrices: 1221,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "340.00",
-      lowPrice: "269.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "4980.00",
-      lowPrice: "3989.00",
-      differenceBetweenPrices: 991,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
+  "CASPRI": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "799.99",
+          "lowPrice": "739.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "1000.00",
+          "lowPrice": "799.99",
+          "differenceBetweenPrices": 200
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "769.99",
+          "differenceBetweenPrices": -770
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "1030.00",
+          "lowPrice": "829.99",
+          "differenceBetweenPrices": 200
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "940.00",
+          "lowPrice": "749.99",
+          "differenceBetweenPrices": 190
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "950.00",
+          "lowPrice": "769.99",
+          "differenceBetweenPrices": 180
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "980.00",
+          "lowPrice": "779.99",
+          "differenceBetweenPrices": 200
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "3690.00",
+          "lowPrice": "2949.99",
+          "differenceBetweenPrices": 740
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "406290.00",
+          "lowPrice": "324990.00",
+          "differenceBetweenPrices": 81300
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "729.99",
+          "differenceBetweenPrices": -730
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "11170.00",
+          "lowPrice": "8935.00",
+          "differenceBetweenPrices": 2235
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "7730.00",
+          "lowPrice": "6099.00",
+          "differenceBetweenPrices": 1631
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "21630.00",
+          "lowPrice": "17299.00",
+          "differenceBetweenPrices": 4331
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "990.00",
+          "lowPrice": "789.99",
+          "differenceBetweenPrices": 200
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "14060.00",
+          "lowPrice": "11249.00",
+          "differenceBetweenPrices": 2811
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "970.00",
+          "lowPrice": "779.99",
+          "differenceBetweenPrices": 190
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "1070.00",
+          "lowPrice": "849.99",
+          "differenceBetweenPrices": 220
+      }
   ],
-  EMMANUELLE: [
-    {
-      country: "Beliani DE",
-      highPrice: "870.00",
-      lowPrice: "689.99",
-      differenceBetweenPrices: 180.01,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "950.00",
-      lowPrice: "759.99",
-      differenceBetweenPrices: 190.01,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "930.00",
-      lowPrice: "719.99",
-      differenceBetweenPrices: 210.01,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "990.00",
-      lowPrice: "789.99",
-      differenceBetweenPrices: 200.01,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "920.00",
-      lowPrice: "729.99",
-      differenceBetweenPrices: 190.01,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "940.00",
-      lowPrice: "749.99",
-      differenceBetweenPrices: 190.01,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "980.00",
-      lowPrice: "769.99",
-      differenceBetweenPrices: 210.01,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "3440.00",
-      lowPrice: "2749.99",
-      differenceBetweenPrices: 690.0100000000002,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "364690.00",
-      lowPrice: "291790.00",
-      differenceBetweenPrices: 72900,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "900.00",
-      lowPrice: "719.99",
-      differenceBetweenPrices: 180.01,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "10740.00",
-      lowPrice: "8595.00",
-      differenceBetweenPrices: 2145,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "7680.00",
-      lowPrice: "6139.00",
-      differenceBetweenPrices: 1541,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "20110.00",
-      lowPrice: "16099.00",
-      differenceBetweenPrices: 4011,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "1000.00",
-      lowPrice: "799.99",
-      differenceBetweenPrices: 200.01,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "13900.00",
-      lowPrice: "11119.00",
-      differenceBetweenPrices: 2781,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "920.00",
-      lowPrice: "719.99",
-      differenceBetweenPrices: 200.01,
-    },
-    {
-      country: "Beliani",
-      highPrice: "1020.00",
-      lowPrice: "809.99",
-      differenceBetweenPrices: 210.01,
-    },
+  "APRILIA": [
+      {
+          "country": "Beliani DE",
+          "highPrice": null,
+          "lowPrice": "549.99",
+          "differenceBetweenPrices": -550
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "690.00",
+          "lowPrice": "549.99",
+          "differenceBetweenPrices": 140
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "579.99",
+          "differenceBetweenPrices": -580
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "640.00",
+          "lowPrice": "509.99",
+          "differenceBetweenPrices": 130
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "570.00",
+          "lowPrice": "449.99",
+          "differenceBetweenPrices": 120
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "590.00",
+          "lowPrice": "479.99",
+          "differenceBetweenPrices": 110
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "600.00",
+          "lowPrice": "479.99",
+          "differenceBetweenPrices": 120
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "2480.00",
+          "lowPrice": "1979.99",
+          "differenceBetweenPrices": 500
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "254490.00",
+          "lowPrice": "203590.00",
+          "differenceBetweenPrices": 50900
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "549.99",
+          "differenceBetweenPrices": -550
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "7170.00",
+          "lowPrice": "5695.00",
+          "differenceBetweenPrices": 1475
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "5090.00",
+          "lowPrice": "4019.00",
+          "differenceBetweenPrices": 1071
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "14130.00",
+          "lowPrice": "11299.00",
+          "differenceBetweenPrices": 2831
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "640.00",
+          "lowPrice": "509.99",
+          "differenceBetweenPrices": 130
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "8010.00",
+          "lowPrice": "6409.00",
+          "differenceBetweenPrices": 1601
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "500.00",
+          "lowPrice": "399.99",
+          "differenceBetweenPrices": 100
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "720.00",
+          "lowPrice": "579.99",
+          "differenceBetweenPrices": 140
+      }
   ],
-  SARITA: [
-    {
-      country: "Beliani DE",
-      highPrice: "150.00",
-      lowPrice: "119.99",
-      differenceBetweenPrices: 30.010000000000005,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "150.00",
-      lowPrice: "119.99",
-      differenceBetweenPrices: 30.010000000000005,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "170.00",
-      lowPrice: "129.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "170.00",
-      lowPrice: "129.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "190.00",
-      lowPrice: "149.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "170.00",
-      lowPrice: "129.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "170.00",
-      lowPrice: "129.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "650.00",
-      lowPrice: "519.99",
-      differenceBetweenPrices: 130.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "64490.00",
-      lowPrice: "51590.00",
-      differenceBetweenPrices: 12900,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "150.00",
-      lowPrice: "119.99",
-      differenceBetweenPrices: 30.010000000000005,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "1840.00",
-      lowPrice: "1405.00",
-      differenceBetweenPrices: 435,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "1150.00",
-      lowPrice: "919.00",
-      differenceBetweenPrices: 231,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "3500.00",
-      lowPrice: "2699.00",
-      differenceBetweenPrices: 801,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "170.00",
-      lowPrice: "129.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "3170.00",
-      lowPrice: "2529.00",
-      differenceBetweenPrices: 641,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "160.00",
-      lowPrice: "119.99",
-      differenceBetweenPrices: 40.010000000000005,
-    },
-    {
-      country: "Beliani",
-      highPrice: "190.00",
-      lowPrice: "149.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
+  "TESERO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "299.99",
+          "lowPrice": "189.99",
+          "differenceBetweenPrices": 110
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "240.00",
+          "lowPrice": "189.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "199.99",
+          "differenceBetweenPrices": -200
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "260.00",
+          "lowPrice": "209.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "250.00",
+          "lowPrice": "199.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "260.00",
+          "lowPrice": "209.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "260.00",
+          "lowPrice": "209.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "970.00",
+          "lowPrice": "779.99",
+          "differenceBetweenPrices": 190
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "89290.00",
+          "lowPrice": "71490.00",
+          "differenceBetweenPrices": 17800
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "199.99",
+          "differenceBetweenPrices": -200
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "2890.00",
+          "lowPrice": "2305.00",
+          "differenceBetweenPrices": 585
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "1820.00",
+          "lowPrice": "1449.00",
+          "differenceBetweenPrices": 371
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "5000.00",
+          "lowPrice": "3999.00",
+          "differenceBetweenPrices": 1001
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "250.00",
+          "lowPrice": "199.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "3840.00",
+          "lowPrice": "3069.00",
+          "differenceBetweenPrices": 771
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "230.00",
+          "lowPrice": "179.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "260.00",
+          "lowPrice": "209.99",
+          "differenceBetweenPrices": 50
+      }
   ],
-  MIDDLETOWN: [
-    {
-      country: "Beliani DE",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "470.00",
-      lowPrice: "369.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "450.00",
-      lowPrice: "349.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "430.00",
-      lowPrice: "329.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "430.00",
-      lowPrice: "329.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "440.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1520.00",
-      lowPrice: "1209.99",
-      differenceBetweenPrices: 310.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "167490.00",
-      lowPrice: "127490.00",
-      differenceBetweenPrices: 40000,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "5650.00",
-      lowPrice: "4345.00",
-      differenceBetweenPrices: 1305,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "3750.00",
-      lowPrice: "2949.00",
-      differenceBetweenPrices: 801,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "7130.00",
-      lowPrice: "5649.00",
-      differenceBetweenPrices: 1481,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "480.00",
-      lowPrice: "379.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "6150.00",
-      lowPrice: "4749.00",
-      differenceBetweenPrices: 1401,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "340.00",
-      lowPrice: "269.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "440.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
+  "CHAPLIN": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "189.99",
+          "lowPrice": "129.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "180.00",
+          "lowPrice": "139.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "139.99",
+          "differenceBetweenPrices": -140
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "0.00",
+          "lowPrice": "0.00",
+          "differenceBetweenPrices": 0
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "190.00",
+          "lowPrice": "149.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "190.00",
+          "lowPrice": "149.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "190.00",
+          "lowPrice": "149.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "690.00",
+          "lowPrice": "539.99",
+          "differenceBetweenPrices": 150
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "69990.00",
+          "lowPrice": "55790.00",
+          "differenceBetweenPrices": 14200
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "139.99",
+          "differenceBetweenPrices": -140
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1990.00",
+          "lowPrice": "1595.00",
+          "differenceBetweenPrices": 395
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "1390.00",
+          "lowPrice": "1099.00",
+          "differenceBetweenPrices": 291
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "3690.00",
+          "lowPrice": "2899.00",
+          "differenceBetweenPrices": 791
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "180.00",
+          "lowPrice": "139.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "3250.00",
+          "lowPrice": "2559.00",
+          "differenceBetweenPrices": 691
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "170.00",
+          "lowPrice": "129.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "190.00",
+          "lowPrice": "149.99",
+          "differenceBetweenPrices": 40
+      }
   ],
-  WESTBROOK: [
-    {
-      country: "Beliani DE",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "290.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "400.00",
-      lowPrice: "319.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "340.00",
-      lowPrice: "269.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "330.00",
-      lowPrice: "259.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "340.00",
-      lowPrice: "269.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "340.00",
-      lowPrice: "269.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1290.00",
-      lowPrice: "1029.99",
-      differenceBetweenPrices: 260.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "150490.00",
-      lowPrice: "120190.00",
-      differenceBetweenPrices: 30300,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "350.00",
-      lowPrice: "279.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "4320.00",
-      lowPrice: "3455.00",
-      differenceBetweenPrices: 865,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "2960.00",
-      lowPrice: "2369.00",
-      differenceBetweenPrices: 591,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "6290.00",
-      lowPrice: "4999.00",
-      differenceBetweenPrices: 1291,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "5570.00",
-      lowPrice: "4449.00",
-      differenceBetweenPrices: 1121,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
+  "GARBO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "359.99",
+          "lowPrice": "219.99",
+          "differenceBetweenPrices": 140
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "290.00",
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": -230
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "300.00",
+          "lowPrice": "239.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "270.00",
+          "lowPrice": "209.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "270.00",
+          "lowPrice": "219.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "270.00",
+          "lowPrice": "219.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "1060.00",
+          "lowPrice": "849.99",
+          "differenceBetweenPrices": 210
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "101690.00",
+          "lowPrice": "81290.00",
+          "differenceBetweenPrices": 20400
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": -230
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "3380.00",
+          "lowPrice": "2705.00",
+          "differenceBetweenPrices": 675
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "2150.00",
+          "lowPrice": "1719.00",
+          "differenceBetweenPrices": 431
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "5330.00",
+          "lowPrice": "4299.00",
+          "differenceBetweenPrices": 1031
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "290.00",
+          "lowPrice": "229.99",
+          "differenceBetweenPrices": 60
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "4180.00",
+          "lowPrice": "3339.00",
+          "differenceBetweenPrices": 841
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "250.00",
+          "lowPrice": "199.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "300.00",
+          "lowPrice": "239.99",
+          "differenceBetweenPrices": 60
+      }
   ],
-  EDEN: [
-    {
-      country: "Beliani DE",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "400.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1640.00",
-      lowPrice: "1279.99",
-      differenceBetweenPrices: 360.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "152390.00",
-      lowPrice: "116990.00",
-      differenceBetweenPrices: 35400,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "390.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "4260.00",
-      lowPrice: "3415.00",
-      differenceBetweenPrices: 845,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "2950.00",
-      lowPrice: "2369.00",
-      differenceBetweenPrices: 581,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "8310.00",
-      lowPrice: "6649.00",
-      differenceBetweenPrices: 1661,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "380.00",
-      lowPrice: "299.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "5800.00",
-      lowPrice: "4639.00",
-      differenceBetweenPrices: 1161,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "300.00",
-      lowPrice: "229.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
+  "JAVA": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "409.99",
+          "lowPrice": "369.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "490.00",
+          "lowPrice": "389.99",
+          "differenceBetweenPrices": 100
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "379.99",
+          "differenceBetweenPrices": -380
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "540.00",
+          "lowPrice": "429.99",
+          "differenceBetweenPrices": 110
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "400.00",
+          "lowPrice": "319.99",
+          "differenceBetweenPrices": 80
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "400.00",
+          "lowPrice": "319.99",
+          "differenceBetweenPrices": 80
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "420.00",
+          "lowPrice": "329.99",
+          "differenceBetweenPrices": 90
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "1630.00",
+          "lowPrice": "1299.99",
+          "differenceBetweenPrices": 330
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "186890.00",
+          "lowPrice": "149590.00",
+          "differenceBetweenPrices": 37300
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "339.99",
+          "differenceBetweenPrices": -340
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "5350.00",
+          "lowPrice": "4275.00",
+          "differenceBetweenPrices": 1075
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "3690.00",
+          "lowPrice": "2909.00",
+          "differenceBetweenPrices": 781
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "9130.00",
+          "lowPrice": "7299.00",
+          "differenceBetweenPrices": 1831
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "480.00",
+          "lowPrice": "379.99",
+          "differenceBetweenPrices": 100
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "6310.00",
+          "lowPrice": "5049.00",
+          "differenceBetweenPrices": 1261
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "430.00",
+          "lowPrice": "339.99",
+          "differenceBetweenPrices": 90
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "450.00",
+          "lowPrice": "359.99",
+          "differenceBetweenPrices": 90
+      }
   ],
-  BURBANK: [
-    {
-      country: "Beliani DE",
-      highPrice: "250.00",
-      lowPrice: "199.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "270.00",
-      lowPrice: "209.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "270.00",
-      lowPrice: "209.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1090.00",
-      lowPrice: "869.99",
-      differenceBetweenPrices: 220.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "114990.00",
-      lowPrice: "91990.00",
-      differenceBetweenPrices: 23000,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "270.00",
-      lowPrice: "209.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "3010.00",
-      lowPrice: "2405.00",
-      differenceBetweenPrices: 605,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "2030.00",
-      lowPrice: "1619.00",
-      differenceBetweenPrices: 411,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "5750.00",
-      lowPrice: "4599.00",
-      differenceBetweenPrices: 1151,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "270.00",
-      lowPrice: "209.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "5040.00",
-      lowPrice: "4039.00",
-      differenceBetweenPrices: 1001,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "250.00",
-      lowPrice: "199.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
+  "AVELLINO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "89.99",
+          "lowPrice": "69.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": -80
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "120.00",
+          "lowPrice": "89.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "320.00",
+          "lowPrice": "249.99",
+          "differenceBetweenPrices": 70
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "33690.00",
+          "lowPrice": "26990.00",
+          "differenceBetweenPrices": 6700
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": -80
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1200.00",
+          "lowPrice": "955.00",
+          "differenceBetweenPrices": 245
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "730.00",
+          "lowPrice": "579.00",
+          "differenceBetweenPrices": 151
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "1650.00",
+          "lowPrice": "1299.00",
+          "differenceBetweenPrices": 351
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "100.00",
+          "lowPrice": "79.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "2350.00",
+          "lowPrice": "1849.00",
+          "differenceBetweenPrices": 501
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "80.00",
+          "lowPrice": "59.99",
+          "differenceBetweenPrices": 20
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "140.00",
+          "lowPrice": "109.99",
+          "differenceBetweenPrices": 30
+      }
   ],
-  WALTON: [
-    {
-      country: "Beliani DE",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "230.00",
-      lowPrice: "179.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "860.00",
-      lowPrice: "679.99",
-      differenceBetweenPrices: 180.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "91990.00",
-      lowPrice: "73590.00",
-      differenceBetweenPrices: 18400,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "2440.00",
-      lowPrice: "1955.00",
-      differenceBetweenPrices: 485,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "1640.00",
-      lowPrice: "1309.00",
-      differenceBetweenPrices: 331,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "4620.00",
-      lowPrice: "3699.00",
-      differenceBetweenPrices: 921,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "4410.00",
-      lowPrice: "3529.00",
-      differenceBetweenPrices: 881,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "240.00",
-      lowPrice: "189.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
+  "LEVANZO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "159.99",
+          "lowPrice": "109.99",
+          "differenceBetweenPrices": 50
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "150.00",
+          "lowPrice": "119.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "119.99",
+          "differenceBetweenPrices": -120
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "160.00",
+          "lowPrice": "129.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "180.00",
+          "lowPrice": "139.99",
+          "differenceBetweenPrices": 40
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "140.00",
+          "lowPrice": "109.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "140.00",
+          "lowPrice": "109.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "450.00",
+          "lowPrice": "359.99",
+          "differenceBetweenPrices": 90
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "50490.00",
+          "lowPrice": "40390.00",
+          "differenceBetweenPrices": 10100
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "119.99",
+          "differenceBetweenPrices": -120
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1670.00",
+          "lowPrice": "1335.00",
+          "differenceBetweenPrices": 335
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "1090.00",
+          "lowPrice": "879.00",
+          "differenceBetweenPrices": 211
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "2490.00",
+          "lowPrice": "1999.00",
+          "differenceBetweenPrices": 491
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "160.00",
+          "lowPrice": "129.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "2780.00",
+          "lowPrice": "2229.00",
+          "differenceBetweenPrices": 551
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "120.00",
+          "lowPrice": "89.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "170.00",
+          "lowPrice": "129.99",
+          "differenceBetweenPrices": 40
+      }
   ],
-  ARCOLA: [
-    {
-      country: "Beliani DE",
-      highPrice: "240.00",
-      lowPrice: "189.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "280.00",
-      lowPrice: "219.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1150.00",
-      lowPrice: "909.99",
-      differenceBetweenPrices: 240.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "137890.00",
-      lowPrice: "110290.00",
-      differenceBetweenPrices: 27600,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "320.00",
-      lowPrice: "249.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "3990.00",
-      lowPrice: "3195.00",
-      differenceBetweenPrices: 795,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "2720.00",
-      lowPrice: "2179.00",
-      differenceBetweenPrices: 541,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "5690.00",
-      lowPrice: "4499.00",
-      differenceBetweenPrices: 1191,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "370.00",
-      lowPrice: "289.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "5430.00",
-      lowPrice: "4349.00",
-      differenceBetweenPrices: 1081,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "240.00",
-      lowPrice: "189.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "300.00",
-      lowPrice: "239.99",
-      differenceBetweenPrices: 60.00999999999999,
-    },
-  ],
-  PRESTON: [
-    {
-      country: "Beliani DE",
-      highPrice: "350.00",
-      lowPrice: "279.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "400.00",
-      lowPrice: "309.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "490.00",
-      lowPrice: "389.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "400.00",
-      lowPrice: "319.99",
-      differenceBetweenPrices: 80.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "440.00",
-      lowPrice: "349.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "440.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "1650.00",
-      lowPrice: "1299.99",
-      differenceBetweenPrices: 350.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "187890.00",
-      lowPrice: "150390.00",
-      differenceBetweenPrices: 37500,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "5230.00",
-      lowPrice: "4185.00",
-      differenceBetweenPrices: 1045,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "3610.00",
-      lowPrice: "2889.00",
-      differenceBetweenPrices: 721,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "8390.00",
-      lowPrice: "6599.00",
-      differenceBetweenPrices: 1791,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "470.00",
-      lowPrice: "369.99",
-      differenceBetweenPrices: 100.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "6820.00",
-      lowPrice: "5459.00",
-      differenceBetweenPrices: 1361,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "350.00",
-      lowPrice: "279.99",
-      differenceBetweenPrices: 70.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "430.00",
-      lowPrice: "339.99",
-      differenceBetweenPrices: 90.00999999999999,
-    },
-  ],
-  DARIEN: [
-    {
-      country: "Beliani DE",
-      highPrice: "180.00",
-      lowPrice: "139.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani AT",
-      highPrice: "190.00",
-      lowPrice: "149.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani FR",
-      highPrice: "190.00",
-      lowPrice: "149.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani IT",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani UK",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani SP",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani PT",
-      highPrice: "200.00",
-      lowPrice: "159.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani PL",
-      highPrice: "750.00",
-      lowPrice: "599.99",
-      differenceBetweenPrices: 150.01,
-    },
-    {
-      country: "Beliani HU",
-      highPrice: "83990.00",
-      lowPrice: "65290.00",
-      differenceBetweenPrices: 18700,
-    },
-    {
-      country: "Beliani NL",
-      highPrice: "250.00",
-      lowPrice: "199.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-    {
-      country: "Beliani SE",
-      highPrice: "2250.00",
-      lowPrice: "1725.00",
-      differenceBetweenPrices: 525,
-    },
-    {
-      country: "Beliani DK",
-      highPrice: "1450.00",
-      lowPrice: "1149.00",
-      differenceBetweenPrices: 301,
-    },
-    {
-      country: "Beliani CZ",
-      highPrice: "4250.00",
-      lowPrice: "3249.00",
-      differenceBetweenPrices: 1001,
-    },
-    {
-      country: "Beliani FI",
-      highPrice: "190.00",
-      lowPrice: "149.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani NO",
-      highPrice: "3400.00",
-      lowPrice: "2719.00",
-      differenceBetweenPrices: 681,
-    },
-    {
-      country: "Beliani SK",
-      highPrice: "180.00",
-      lowPrice: "139.99",
-      differenceBetweenPrices: 40.00999999999999,
-    },
-    {
-      country: "Beliani",
-      highPrice: "220.00",
-      lowPrice: "169.99",
-      differenceBetweenPrices: 50.00999999999999,
-    },
-  ],
-};
+  "CARANO": [
+      {
+          "country": "Beliani DE",
+          "highPrice": "99.99",
+          "lowPrice": "89.99",
+          "differenceBetweenPrices": 10
+      },
+      {
+          "country": "Beliani AT",
+          "highPrice": "120.00",
+          "lowPrice": "89.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani FR",
+          "highPrice": null,
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": -100
+      },
+      {
+          "country": "Beliani IT",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani UK",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani SP",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani PT",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani PL",
+          "highPrice": "440.00",
+          "lowPrice": "349.99",
+          "differenceBetweenPrices": 90
+      },
+      {
+          "country": "Beliani HU",
+          "highPrice": "47790.00",
+          "lowPrice": "38290.00",
+          "differenceBetweenPrices": 9500
+      },
+      {
+          "country": "Beliani NL",
+          "highPrice": null,
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": -100
+      },
+      {
+          "country": "Beliani SE",
+          "highPrice": "1370.00",
+          "lowPrice": "1095.00",
+          "differenceBetweenPrices": 275
+      },
+      {
+          "country": "Beliani DK",
+          "highPrice": "850.00",
+          "lowPrice": "669.00",
+          "differenceBetweenPrices": 181
+      },
+      {
+          "country": "Beliani CZ",
+          "highPrice": "2380.00",
+          "lowPrice": "1899.00",
+          "differenceBetweenPrices": 481
+      },
+      {
+          "country": "Beliani FI",
+          "highPrice": "130.00",
+          "lowPrice": "99.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani NO",
+          "highPrice": "2380.00",
+          "lowPrice": "1909.00",
+          "differenceBetweenPrices": 471
+      },
+      {
+          "country": "Beliani SK",
+          "highPrice": "120.00",
+          "lowPrice": "89.99",
+          "differenceBetweenPrices": 30
+      },
+      {
+          "country": "Beliani",
+          "highPrice": "140.00",
+          "lowPrice": "109.99",
+          "differenceBetweenPrices": 30
+      }
+  ]
+}

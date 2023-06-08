@@ -4,14 +4,7 @@ import { newsletter, landing, errorPage } from "./templates/index.js";
 initApp(
   {
     renderTo: "#app",
-    startId: "16092",
-    xlsPath: "./data/xls/",
-    productsOrdering: [
-      'WALTON',
-      'ARCOLA',
-      'MAGALIA',
-      'BROOKVILLE',
-    ]
+    startId: "16125",
   },
   {
     newsletter,

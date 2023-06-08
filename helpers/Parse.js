@@ -129,7 +129,7 @@ export function getFormula(products) {
             relativeCountriesToId: parsedShopIdsToCountry,
             productName: product.name,
         })
-        links[product.name] = response.templates[0].preview
+        links[product.name + product.id] = response.templates[0].preview
 
         console.log(\`Product \${product.name} with id \${product.id} has been parsed.\`)
 
@@ -137,7 +137,7 @@ export function getFormula(products) {
             console.log(\`All links has been collected. Next step is to get low, high price for every product.\`)
 
             for (const item of parsedShopIds) {
-
+                const productName = item.productName
                 for (const object of item.relativeCountriesToId) {
                     let getDataShopIds
                     try {
@@ -151,10 +151,10 @@ export function getFormula(products) {
                         }, 5000)
                     }
             
-                    productsData[item.productName]
+                    productsData[productName]
                     ?
-                    productsData[item.productName] = [
-                        ...productsData[item.productName],
+                    productsData[productName] = [
+                        ...productsData[productName],
                         {
                             country: getDataShopIds.sa.saved_params.username,
                             highPrice: getDataShopIds.sa.saved_params.ShopHPrice,
@@ -163,7 +163,7 @@ export function getFormula(products) {
                         }
                     ]
                     :
-                    productsData[item.productName] = [
+                    productsData[productName] = [
                         {
                             country: getDataShopIds.sa.saved_params.username,
                             highPrice: getDataShopIds.sa.saved_params.ShopHPrice,
@@ -209,5 +209,13 @@ export function getFormula(products) {
 // functions[]: ajax_prices
 // params[ajax_prices_ids][ids][]: 56284
 
-// https://www.beliani.ch/js_backend_shop.php?fn=collect_blocks&functions[]=ajax_prices&&params[ajax_prices_ids][ids][]=56284&params[ajax_prices_ids][ids][]=56281&params[ajax_prices_ids][ids][]=116296&params[ajax_prices_ids][ids][]=56268&params[ajax_prices_ids][ids][]=56278&params[ajax_prices_ids][ids][]=11964&params[ajax_prices_ids][ids][]=368029&params[ajax_prices_ids][ids][]=248905&params[ajax_prices_ids][ids][]=376649&params[ajax_prices_ids][ids][]=251845&params[ajax_prices_ids][ids][]=263946&params[ajax_prices_ids][ids][]=374902&params[ajax_prices_ids][ids][]=251478&params[ajax_prices_ids][ids][]=71531&params[ajax_prices_ids][ids][]=193469&params[ajax_prices_ids][ids][]=324744&params[ajax_prices_ids][ids][]=193450&params[ajax_prices_ids][ids][]=375148&params[ajax_prices_ids][ids][]=301788&params[ajax_prices_ids][ids][]=197884&params[ajax_prices_ids][ids][]=85060&params[ajax_prices_ids][ids][]=315858
+// https://www.beliani.ch/js_backend_shop.php?fn=collect_blocks&functions[]=ajax_prices&params[ajax_prices_ids][ids][]=56284&params[ajax_prices_ids][ids][]=56281&params[ajax_prices_ids][ids][]=116296&params[ajax_prices_ids][ids][]=56268&params[ajax_prices_ids][ids][]=56278&params[ajax_prices_ids][ids][]=11964&params[ajax_prices_ids][ids][]=368029&params[ajax_prices_ids][ids][]=248905&params[ajax_prices_ids][ids][]=376649&params[ajax_prices_ids][ids][]=251845&params[ajax_prices_ids][ids][]=263946&params[ajax_prices_ids][ids][]=374902&params[ajax_prices_ids][ids][]=251478&params[ajax_prices_ids][ids][]=71531&params[ajax_prices_ids][ids][]=193469&params[ajax_prices_ids][ids][]=324744&params[ajax_prices_ids][ids][]=193450&params[ajax_prices_ids][ids][]=375148&params[ajax_prices_ids][ids][]=301788&params[ajax_prices_ids][ids][]=197884&params[ajax_prices_ids][ids][]=85060&params[ajax_prices_ids][ids][]=315858
 
+const myUrl = new URL("https://www.beliani.ch/js_backend_shop.php")
+myUrl.searchParams.set("fn", "collect_blocks")
+myUrl.searchParams.set("functions[]", "ajax_prices")
+myUrl.searchParams.set("params[ajax_prices_ids][ids][]", "56284")
+myUrl.searchParams.set("params[ajax_prices_ids][ids][]", "56281")
+console.log(myUrl);
+
+fetch(new Request(myUrl.href)).then(r => r.json()).then(data => console.log(data))

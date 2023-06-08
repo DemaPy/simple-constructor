@@ -3,6 +3,7 @@ import { parsePrice } from "../helpers/parsePrice.js";
 import { links, text, prices, codes, free, conditions, save } from "../data/index.js";
 import { clickRenderBtnHandler, copyHandlerFormula, copyHandlerTemplate, inputBlur, openCampaignHandler, openEveryHandler } from "./events.js";
 import { getPriceFromXLS } from "../helpers/collectPriceFromXLS.js";
+import { attachCss } from "../helpers/getCss.js";
 
 export function initApp({ renderTo, startId, countries, productsOrdering, xlsPath }, templates) {
 
@@ -29,9 +30,13 @@ export function initApp({ renderTo, startId, countries, productsOrdering, xlsPat
 
     function render() {
         if (root) {
+            attachCss(renderTemplate)
             selectTemplateToRender(renderTemplate.value).then(template => {
                 if (hasUndefined(template)) {
-                    return root.innerHTML = templates.errorPage('Error rendering. Please check your HTML code and try again.')
+                    if (confirm("Do you want to render template with undefined value?")) {
+                        return root.innerHTML = template
+                    }
+                    return root.innerHTML = templates.errorPage('Error rendering. HTML code has undefined value.')
                 }
 
                 root.innerHTML = template
@@ -66,7 +71,7 @@ export function initApp({ renderTo, startId, countries, productsOrdering, xlsPat
         copyTemplate.addEventListener("click", (e) => copyHandlerTemplate(e, copyTemplate, app, renderTemplate))
     }
         
-    function setCountry(node, target, sync) {
+    function setCountry(node, target) {
         if (node === target) {
             const selectedCountry = target.attributes.value.value
             window.location.hash = selectedCountry

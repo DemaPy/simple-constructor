@@ -6,7 +6,7 @@ export default {
   ) => {
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0" border="0" align="center">
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0" border="0" align="center">
         <tbody>
             <tr>
                 <td>
@@ -255,7 +255,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0" border="0" align="center">
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0" border="0" align="center">
         <tbody>
             <tr>
                 <td>
@@ -431,21 +431,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   CHDE: (
     text = "Alle Artikel unterliegen der Verfügbarkeit. Alle Preise können ohne Vorankündigung geändert werden.",
     type,
     id
   ) => {
-
-    const newsletter =`
+    const newsletter = `
     <!-- FOOTER -->
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
         <tbody>
             <tr>
                 <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -567,10 +566,10 @@ export default {
             </tr>
         </tbody>
     </table>
-    `
-    const landing =`
+    `;
+    const landing = `
     <!-- FOOTER -->
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
         <tbody>
             <tr>
                 <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -651,24 +650,23 @@ export default {
             </tr>
         </tbody>
     </table>
-    `
+    `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   AT: (
     text = "Alle Artikel unterliegen der Verfügbarkeit. Alle Preise können ohne Vorankündigung geändert werden.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
         border="0" align="center">
         <tbody>
 		<tr>
@@ -912,10 +910,10 @@ export default {
             </tr>
         </tbody>
     </table>
-    `
+    `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
         border="0" align="center">
         <tbody>
 		<tr>
@@ -1085,23 +1083,23 @@ export default {
             </tr>
         </tbody>
     </table>
-    `
+    `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   FR: (
     text = "Tous les articles sont soumis à la disponibilité. Tous les prix sont susceptibles d'être modifiés sans notification.",
     type,
     id
-  ) => { 
+  ) => {
     const newsletter = `
     <!--FOOTER-->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		<tr>
@@ -1347,10 +1345,10 @@ export default {
          </tr>
      </tbody>
     </table>
-    `
+    `;
     const landing = `
     <!--FOOTER-->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		<tr>
@@ -1522,24 +1520,23 @@ export default {
          </tr>
      </tbody>
     </table>
-    `
+    `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   CHFR: (
     text = "Tous les articles sont soumis à la disponibilité. Tous les prix sont susceptibles d'être modifiés sans notification.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
     border="0" align="center">
     <tbody>
        <tr>
@@ -1787,7 +1784,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
     border="0" align="center">
     <tbody>
        <tr>
@@ -1962,21 +1959,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   IT: (
     text = "Tutti gli articoli sono soggetti a disponibilità. Tutti i prezzi sono soggetti a modifiche senza preavviso.",
     type,
     id
   ) => {
-    
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		<tr>
@@ -2226,7 +2222,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		<tr>
@@ -2401,21 +2397,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   UK: (
     text = "All items are subject to availability. All prices are subject to change without notification.",
     type,
     id
   ) => {
-    
     const newsletter = `
     <!--FOOTER-->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		<tr>
@@ -2429,77 +2424,77 @@ export default {
              </td>
          </tr>
          <tr>
-             <td class="newsletterFooterCategories">
-                 <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                     <tbody>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFT">
-                                 <a
-                                     href="https://www.beliani.co.uk/sofas/All%20products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_08.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHT">
-                                 <a
-                                     href="https://www.beliani.co.uk/beds/All%20products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_10.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFT">
-                                 <a
-                                     href="https://www.beliani.co.uk/tables/coffee-tables/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_14.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHT">
-                                 <a
-                                     href="https://www.beliani.co.uk/chairs/All%20products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_15.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFT">
-                                 <a
-                                     href="https://www.beliani.co.uk/armchairs/All%20products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_18.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHT">
-                                 <a
-                                     href="https://www.beliani.co.uk/storage/sideboards/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_19.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFTBottom">
-                                 <a
-                                     href="https://www.beliani.co.uk/lighting/All%20products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_22.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHTBottom">
-                                 <a
-                                     href="https://www.beliani.co.uk/rugs/All%20products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_23.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
+         <td class="newsletterFooterCategories">
+             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                 <tbody>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFT">
+                             <a
+                                 href="https://www.beliani.co.uk/sofas/all+products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_08.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHT">
+                             <a
+                                 href="https://www.beliani.co.uk/beds/all+products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_10.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFT">
+                             <a
+                                 href="https://www.beliani.co.uk/tables/coffee-tables/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_14.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHT">
+                             <a
+                                 href="https://www.beliani.co.uk/chairs/all+products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_15.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFT">
+                             <a
+                                 href="https://www.beliani.co.uk/armchairs/all+products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_18.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHT">
+                             <a
+                                 href="https://www.beliani.co.uk/storage/sideboards/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_19.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFTBottom">
+                             <a
+                                 href="https://www.beliani.co.uk/lighting/all+products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_22.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHTBottom">
+                             <a
+                                 href="https://www.beliani.co.uk/rugs/all+products/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_23.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                 </tbody>
+             </table>
+         </td>
+     </tr>
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
 		</tr>
@@ -2667,7 +2662,7 @@ export default {
     `;
     const landing = `
     <!--FOOTER-->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		<tr>
@@ -2681,77 +2676,77 @@ export default {
              </td>
          </tr>
          <tr>
-             <td class="newsletterFooterCategories">
-                 <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
-                     <tbody>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFT">
-                                 <a
-                                     href="https://www.beliani.co.uk/sofas/All%20products/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_08.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHT">
-                                 <a
-                                     href="https://www.beliani.co.uk/beds/All%20products/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_10.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFT">
-                                 <a
-                                     href="https://www.beliani.co.uk/tables/coffee-tables/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_14.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHT">
-                                 <a
-                                     href="https://www.beliani.co.uk/chairs/All%20products/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_15.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFT">
-                                 <a
-                                     href="https://www.beliani.co.uk/armchairs/All%20products/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_18.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHT">
-                                 <a
-                                     href="https://www.beliani.co.uk/storage/sideboards/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_19.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-                             <td class="newsletterFooterCategoryLEFTBottom">
-                                 <a
-                                     href="https://www.beliani.co.uk/lighting/All%20products/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_22.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                             <td class="newsletterFooterCategoryRIGHTBottom">
-                                 <a
-                                     href="https://www.beliani.co.uk/rugs/All%20products/">
-                                     <img src="https://beliani.info/newsletter/2022/uk2023uk_23.jpg" alt=""
-                                         style="display:block" width="100%" border="0" />
-                                 </a>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </td>
-         </tr>
+         <td class="newsletterFooterCategories">
+             <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                 <tbody>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFT">
+                             <a
+                                 href="https://www.beliani.co.uk/sofas/all+products/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_08.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHT">
+                             <a
+                                 href="https://www.beliani.co.uk/beds/all+products/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_10.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFT">
+                             <a
+                                 href="https://www.beliani.co.uk/tables/coffee-tables/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_14.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHT">
+                             <a
+                                 href="https://www.beliani.co.uk/chairs/all+products/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_15.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFT">
+                             <a
+                                 href="https://www.beliani.co.uk/armchairs/all+products/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_18.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHT">
+                             <a
+                                 href="https://www.beliani.co.uk/storage/sideboards/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_19.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="newsletterFooterCategoryLEFTBottom">
+                             <a
+                                 href="https://www.beliani.co.uk/lighting/all+products/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_22.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                         <td class="newsletterFooterCategoryRIGHTBottom">
+                             <a
+                                 href="https://www.beliani.co.uk/rugs/all+products/">
+                                 <img src="https://beliani.info/newsletter/2022/uk2023uk_23.jpg" alt=""
+                                     style="display:block" width="100%" border="0" />
+                             </a>
+                         </td>
+                     </tr>
+                 </tbody>
+             </table>
+         </td>
+     </tr>
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
 		</tr>
@@ -2842,21 +2837,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   ES: (
     text = "Los artículos están sujetos a disponibilidad. Los precios pueden variar sin notificación previa.",
     type,
     id
   ) => {
-    
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
         border="0" align="center">
         <tbody>
 		<tr>
@@ -3106,7 +3100,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
         border="0" align="center">
         <tbody>
 		<tr>
@@ -3281,21 +3275,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   PT: (
     text = "Oferta limitada ao stock disponível. Todos os preços podem estar sujeitos a alterações sem aviso prévio.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
 	<tbody>
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -3420,7 +3413,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
 	<tbody>
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -3504,21 +3497,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   PL: (
     text = "Promocja obowiązuje do wyczerpania zapasów. Zastrzegamy sobie prawo do zmiany cen.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
       border="0" align="center">
       <tbody>
          <tr>
@@ -3538,14 +3530,14 @@ export default {
                           <tr>
                               <td class="newsletterFooterCategoryLEFT">
                                   <a
-                                      href="https://www.beliani.pl/sofy/Wszystkie+produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                      href="https://www.beliani.pl/sofy/wszystkie+produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                       <img src="https://beliani.info/newsletter/2022/pl2023pl_08.jpg" alt=""
                                           style="display:block" width="100%" border="0" />
                                   </a>
                               </td>
                               <td class="newsletterFooterCategoryRIGHT">
                                   <a
-                                      href="https://www.beliani.pl/lozka/Wszystkie%20produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                      href="https://www.beliani.pl/lozka/wszystkie+produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                       <img src="https://beliani.info/newsletter/2022/pl2023pl_10.jpg" alt=""
                                           style="display:block" width="100%" border="0" />
                                   </a>
@@ -3561,7 +3553,7 @@ export default {
                               </td>
                               <td class="newsletterFooterCategoryRIGHT">
                                   <a
-                                      href="https://www.beliani.pl/krzesla/Wszystkie%20produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
+                                      href="https://www.beliani.pl/krzesla/wszystkie+produkty/?utm_source=newsletter&utm_medium=email&utm_campaign=${id}">
                                       <img src="https://beliani.info/newsletter/2022/pl2023pl_15.jpg" alt=""
                                           style="display:block" width="100%" border="0" />
                                   </a>
@@ -3593,7 +3585,7 @@ export default {
                                 </td>
                                 <td class="newsletterFooterCategoryRIGHTBottom">
                                     <a
-                                        href="https://www.beliani.pl/dywany/Wszystkie%20produkty/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=${id}">
+                                        href="https://www.beliani.pl/dywany/wszystkie+produkty/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=${id}">
                                         <img src="https://beliani.info/newsletter/2022/pl2023pl_23.jpg" alt=""
                                             style="display:block" width="100%" border="0">
                                     </a>
@@ -3776,7 +3768,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
       border="0" align="center">
       <tbody>
          <tr>
@@ -3796,14 +3788,14 @@ export default {
                           <tr>
                               <td class="newsletterFooterCategoryLEFT">
                                   <a
-                                      href="https://www.beliani.pl/sofy/Wszystkie+produkty/">
+                                      href="https://www.beliani.pl/sofy/wszystkie+produkty/">
                                       <img src="https://beliani.info/newsletter/2022/pl2023pl_08.jpg" alt=""
                                           style="display:block" width="100%" border="0" />
                                   </a>
                               </td>
                               <td class="newsletterFooterCategoryRIGHT">
                                   <a
-                                      href="https://www.beliani.pl/lozka/Wszystkie%20produkty/">
+                                      href="https://www.beliani.pl/lozka/wszystkie+produkty/">
                                       <img src="https://beliani.info/newsletter/2022/pl2023pl_10.jpg" alt=""
                                           style="display:block" width="100%" border="0" />
                                   </a>
@@ -3819,7 +3811,7 @@ export default {
                               </td>
                               <td class="newsletterFooterCategoryRIGHT">
                                   <a
-                                      href="https://www.beliani.pl/krzesla/Wszystkie%20produkty/">
+                                      href="https://www.beliani.pl/krzesla/wszystkie+produkty/">
                                       <img src="https://beliani.info/newsletter/2022/pl2023pl_15.jpg" alt=""
                                           style="display:block" width="100%" border="0" />
                                   </a>
@@ -3851,7 +3843,7 @@ export default {
                                 </td>
                                 <td class="newsletterFooterCategoryRIGHTBottom">
                                     <a
-                                        href="https://www.beliani.pl/dywany/Wszystkie%20produkty/">
+                                        href="https://www.beliani.pl/dywany/wszystkie+produkty/">
                                         <img src="https://beliani.info/newsletter/2022/pl2023pl_23.jpg" alt=""
                                             style="display:block" width="100%" border="0">
                                     </a>
@@ -3959,21 +3951,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   HU: (
     text = "Áraink a készlet erejéig érvényesek. Az árváltoztatás jogát előzetes bejelentés nélkül is fenntartjuk.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
 	<tbody>
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -4091,7 +4082,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
 	<tbody>
 		<tr>
 			<td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -4168,21 +4159,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   NL: (
     text = "Alle producten zijn afhankelijk van de voorraad. Alle prijzen kunnen zonder melden worden gewijzigd.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
         border="0" align="center">
         <tbody>
 		<tr>
@@ -4432,7 +4422,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
         border="0" align="center">
         <tbody>
 		<tr>
@@ -4607,11 +4597,11 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   SE: (
     text = "Alla varor är beroende av tillgänglighet. Alla priser kan komma att ändras utan förvarning.",
@@ -4620,7 +4610,7 @@ export default {
   ) => {
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
     border="0" align="center">
     <tbody>
         <tr>
@@ -4870,7 +4860,7 @@ export default {
 
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
     border="0" align="center">
     <tbody>
         <tr>
@@ -5044,7 +5034,6 @@ export default {
     </table>
     `;
 
-
     const templates = {
       newsletter,
       landing,
@@ -5059,7 +5048,7 @@ export default {
   ) => {
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		 <tr>
@@ -5308,7 +5297,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		 <tr>
@@ -5483,11 +5472,11 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   CZ: (
     text = "Všechny položky jsou závislé na dostupnosti. Všechny ceny se mohou bez upozornění změnit.",
@@ -5496,7 +5485,7 @@ export default {
   ) => {
     const newsletter = `
     <!-- FOOTER -->	
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
         <tbody>
             <tr>
                 <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -5621,7 +5610,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->	
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
         <tbody>
             <tr>
                 <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -5705,21 +5694,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   FI: (
     text = "Tuotteet saatavuuden mukaan. Pidätämme oikeudet hinnanmuutoksiin ilman erillistä ilmoitusta.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		 		 <tr>
@@ -5968,7 +5956,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
      border="0" align="center">
      <tbody>
 		 		 <tr>
@@ -6143,11 +6131,11 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   NO: (
     text = "Alle varer er avhengig av tilgjengelighet. Alle priser kan endres uten varsel.",
@@ -6156,7 +6144,7 @@ export default {
   ) => {
     const newsletter = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
    border="0" align="center">
    <tbody>
 	   <tr>
@@ -6406,7 +6394,7 @@ export default {
     `;
     const landing = `
     <!-- FOOTER -->
-    <table style="max-width:650px; background-color:#ffffff;" class="newsletterFooter" cellspacing="0" cellpadding="0"
+    <table style="max-width:650px; background-color:#ffffff; display: block;" class="newsletterFooter" cellspacing="0" cellpadding="0"
    border="0" align="center">
    <tbody>
 	   <tr>
@@ -6581,21 +6569,20 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
   SK: (
     text = "Všetky položky podliehajú dostupnosti. Všetky ceny sa môžu zmeniť bez upozornenia.",
     type,
     id
   ) => {
-
     const newsletter = `
     <!--FOOTER-->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
 	<tbody>
         <tr>
             <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -6704,7 +6691,7 @@ export default {
 		<tr>
 			<td align="center" class="newsletterFooterCompanyDetails"><span style="color: #000000;text-align: center; font-size:11px;"><b><font style="font-size: 10px;">Detaily spoločnosti</font> </b><br />
 			Beliani (DE) GmbH CH 6340 Baar Švajčiarsko<br />
-			Telefónne číslo: +421 232 784 612; E-mailová adresa: <a href="mailto:mail@beliani.sk">mail@beliani.sk</a><br />
+			Telefónne číslo: +421 2/327 846 12; E-mailová adresa: <a href="mailto:mail@beliani.sk">mail@beliani.sk</a><br />
 			Obchodný register: Obchodný register kantónu Zug, CH-170.4.008.869-6<br />
 			USt-IDNr: CHE-114.825.869 MWST; DIČ: DE 276156472</span></td>
 		</tr>
@@ -6713,7 +6700,7 @@ export default {
     `;
     const landing = `
     <!--FOOTER-->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="newsletterFooter" style="max-width:650px; background-color:#ffffff; display: block;">
 	<tbody>
         <tr>
             <td><img alt="" src="https://beliani.info/newsletter/2022/line.jpg" style="display:block" width="100%" /></td>
@@ -6790,10 +6777,10 @@ export default {
     `;
 
     const templates = {
-        newsletter,
-        landing
-    }
+      newsletter,
+      landing,
+    };
 
-    return templates[type]
+    return templates[type];
   },
 };

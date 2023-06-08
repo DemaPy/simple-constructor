@@ -4,17 +4,17 @@ export default {
       id
     ) => {
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand &
-            Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
-        Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
-        die Online-Version an.</p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand &
+          Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
+      Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
+      die Online-Version an. Füge Beliani zu deiner <a style="color: #000; border: 0;" href="https://www.beliani.de/content/whitelist-emails-de/">Weißliste</a> hinzu</p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -46,17 +46,17 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand &
-            Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
-        Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
-        die Online-Version an.</p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand &
+          Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
+      Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
+      die Online-Version an. Füge Beliani zu deiner <a style="color: #000; border: 0;" href="https://www.beliani.de/content/whitelist-emails-de/">Weißliste</a> hinzu</p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -101,18 +101,17 @@ export default {
     ) => {
   
       const newsletter = `
-          <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
-        <span>✔️ Gratis Versand & Rückversand ✔️ Die grösste Auswahl ✔️ Bis zu 70% Rabatt</span>
-    </p>
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
+<span>✔️ Gratis Versand & Rückversand ✔️ Die grösste Auswahl ✔️ Bis zu 70% Rabatt</span></p>
 
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Der Newsletter wird nicht richtig angezeigt? <a href="[[newsshowurl]]" style="color: #000; border: 0;">Sieh</a> dir die Online-Version an.</p>
-    <!-- top -->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
+Der Newsletter wird nicht richtig angezeigt? <a href="[[newsshowurl]]" style="color: #000; border: 0;">Sieh</a> dir die Online-Version an. Füge Beliani zu deiner <a href="https://www.beliani.ch/content/whitelist-emails-de/" style="color: #000; border: 0;">Weissliste</a> hinzu</p>
+<!-- top -->
 
     <table align="center" border="0" cellpadding="0" cellspacing="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
@@ -146,19 +145,18 @@ export default {
     </table>
       `
       const landing =`
-          <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
-        <span>✔️ Gratis Versand & Rückversand ✔️ Die grösste Auswahl ✔️ Bis zu 70% Rabatt</span>
-    </p>
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
+<span>✔️ Gratis Versand & Rückversand ✔️ Die grösste Auswahl ✔️ Bis zu 70% Rabatt</span></p>
 
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Der Newsletter wird nicht richtig angezeigt? <a href="[[newsshowurl]]" style="color: #000; border: 0;">Sieh</a>
-        dir die Online-Version an.</p>
-    <!-- top -->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
+Der Newsletter wird nicht richtig angezeigt? <a href="[[newsshowurl]]" style="color: #000; border: 0;">Sieh</a> dir die Online-Version an. Füge Beliani zu deiner <a href="https://www.beliani.ch/content/whitelist-emails-de/" style="color: #000; border: 0;">Weissliste</a> hinzu</p>
+<!-- top -->
+
 
     <table align="center" border="0" cellpadding="0" cellspacing="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
@@ -206,16 +204,15 @@ export default {
   
       const newsletter = `
       <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand &
-            Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
-        Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
-        die Online-Version an.</p>
-    <!-- top -->
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand & Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
+      Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
+      die Online-Version an. Füge Beliani zu deiner <a style="color: #000; border: 0;" href="https://www.beliani.at/content/whitelist-emails-de/">Weißliste</a> hinzu</p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -249,16 +246,15 @@ export default {
 
       const landing = `
       <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand &
-            Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
-        Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
-        die Online-Version an.</p>
-    <!-- top -->
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Gratis Versand & Rückversand ✔️ Die größte Auswahl ✔️ Bis zu 70% Rabatt</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Der
+      Newsletter wird nicht richtig angezeigt? <a style="color: #000; border: 0;" href="[[newsshowurl]]">Sieh</a> dir
+      die Online-Version an. Füge Beliani zu deiner <a style="color: #000; border: 0;" href="https://www.beliani.at/content/whitelist-emails-de/">Weißliste</a> hinzu</p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -302,31 +298,37 @@ export default {
       id
     ) => { 
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
-            Jusqu'à 70% de réduction</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Ce message n’apparaît pas, consultez la
-        <a style="color: #000; border: 0;" href="[[newsshowurl]]">version en ligne.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
+      Jusqu'à 70% de réduction</span
+    >
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Ce message n’apparaît pas, consultez la
+    <a style="color: #000; border: 0;" href="[[newsshowurl]]">version en ligne.</a> Ajoutez Beliani <a style="color: #000; border: 0;" href="https://www.beliani.fr/content/whitelist-emails-fr/">à votre liste</a> d'emails.
+  </p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -374,31 +376,37 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
-            Jusqu'à 70% de réduction</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Ce message n’apparaît pas, consultez la
-        <a style="color: #000; border: 0;" href="[[newsshowurl]]">version en ligne.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
+      Jusqu'à 70% de réduction</span
+    >
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Ce message n’apparaît pas, consultez la
+    <a style="color: #000; border: 0;" href="[[newsshowurl]]">version en ligne.</a> Ajoutez Beliani <a style="color: #000; border: 0;" href="https://www.beliani.fr/content/whitelist-emails-fr/">à votre liste</a> d'emails.
+  </p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -459,32 +467,37 @@ export default {
     ) => {
   
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
-            Jusqu'à 70% de réduction</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Ce message n’apparaît pas, consultez la
-        <a style="color: #000; border: 0"
-            href="file:///C|/Users/User/Desktop/NEW Footer/Nowy folder/[[newsshowurl]]">version en ligne.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
+      Jusqu'à 70% de réduction</span
+    >
+  </p>
+  <p style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Ce message n’apparaît pas, consultez la
+    <a style="color: #000; border: 0" href="[[newsshowurl]]"
+      >version en ligne.</a> Ajoutez Beliani <a style="color: #000; border: 0" href="https://www.beliani.ch/content/whitelist-emails-fr/">à votre liste</a> d'emails
+  </p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -532,32 +545,37 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
-            Jusqu'à 70% de réduction</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Ce message n’apparaît pas, consultez la
-        <a style="color: #000; border: 0"
-            href="file:///C|/Users/User/Desktop/NEW Footer/Nowy folder/[[newsshowurl]]">version en ligne.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Livraison et retours gratuits ✔️ Large sélection de produits ✔️
+      Jusqu'à 70% de réduction</span
+    >
+  </p>
+  <p style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Ce message n’apparaît pas, consultez la
+    <a style="color: #000; border: 0" href="[[newsshowurl]]"
+      >version en ligne.</a> Ajoutez Beliani <a style="color: #000; border: 0" href="https://www.beliani.ch/content/whitelist-emails-fr/">à votre liste</a> d'emails
+  </p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -618,17 +636,14 @@ export default {
     ) => {
       
       const newsletter = `
-         <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Spedizioni e
-            Resi Gratis ✔️ Vasta Selezione di Arredi ✔️ Sconti fino al 70%<br></span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br>Non
-        riesci a visualizzare la newsletter? Prova <a style="color: #000;" href="[[newsshowurl]]">la versione
-            online.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Spedizioni e Resi Gratis ✔️ Vasta Selezione di Arredi ✔️ Sconti fino al 70%<br></span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br>Non riesci a visualizzare la newsletter? Prova <a style="color: #000;" href="[[newsshowurl]]">la versione online.</a> Aggiungi Beliani alla <a style="color: #000;" href="https://www.beliani.it/content/whitelist-emails-it/">tua lista di e-mail</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -660,17 +675,14 @@ export default {
     </table>
       `
       const landing = `
-         <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Spedizioni e
-            Resi Gratis ✔️ Vasta Selezione di Arredi ✔️ Sconti fino al 70%<br></span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br>Non
-        riesci a visualizzare la newsletter? Prova <a style="color: #000;" href="[[newsshowurl]]">la versione
-            online.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Spedizioni e Resi Gratis ✔️ Vasta Selezione di Arredi ✔️ Sconti fino al 70%<br></span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br>Non riesci a visualizzare la newsletter? Prova <a style="color: #000;" href="[[newsshowurl]]">la versione online.</a> Aggiungi Beliani alla <a style="color: #000;" href="https://www.beliani.it/content/whitelist-emails-it/">tua lista di e-mail</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -715,31 +727,36 @@ export default {
     ) => {
       
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Free Delivery and Returns ✔️ The Greatest Selection ✔️ Up to 70%
-            Off</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Having trouble viewing Newsletter? View the
-        <a style="color: #000; border: 0;" href="[[newsshowurl]]"> online version.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Free Delivery and Returns ✔️ The Greatest Selection ✔️ Up to 70%
+      Off</span
+    >
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Having trouble viewing Newsletter? View the
+    <a style="color: #000; border: 0;" href="[[newsshowurl]]">online version.</a> Add Beliani to your <a style="color: #000; border: 0;" href="https://www.beliani.co.uk/content/whitelist-emails/">whitelist</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -787,31 +804,36 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Free Delivery and Returns ✔️ The Greatest Selection ✔️ Up to 70%
-            Off</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Having trouble viewing Newsletter? View the
-        <a style="color: #000; border: 0;" href="[[newsshowurl]]"> online version.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Free Delivery and Returns ✔️ The Greatest Selection ✔️ Up to 70%
+      Off</span
+    >
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Having trouble viewing Newsletter? View the
+    <a style="color: #000; border: 0;" href="[[newsshowurl]]">online version.</a> Add Beliani to your <a style="color: #000; border: 0;" href="https://www.beliani.co.uk/content/whitelist-emails/">whitelist</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -872,17 +894,14 @@ export default {
     ) => {
       
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Envío y
-            devolución gratis ✔️ Amplia selección de productos ✔️ Hasta un 70% de descuento</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />¿No
-        puedes ver la Newsletter? Consulta la versión <a style="color: #000; border: 0;" href="[[newsshowurl]]">en
-            línea.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Envío y devolución gratis ✔️ Amplia selección de productos ✔️ Hasta un 70% de descuento</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />¿No puedes ver la Newsletter? Consulta la versión <a style="color: #000; border: 0;" href="[[newsshowurl]]">en línea.</a> Añade Beliani a tu <a style="color: #000; border: 0;" href="https://www.beliani.es/content/whitelist-emails-es/">lista blanca</a> de emails</p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -912,17 +931,14 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Envío y
-            devolución gratis ✔️ Amplia selección de productos ✔️ Hasta un 70% de descuento</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />¿No
-        puedes ver la Newsletter? Consulta la versión <a style="color: #000; border: 0;" href="[[newsshowurl]]">en
-            línea.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Envío y devolución gratis ✔️ Amplia selección de productos ✔️ Hasta un 70% de descuento</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />¿No puedes ver la Newsletter? Consulta la versión <a style="color: #000; border: 0;" href="[[newsshowurl]]">en línea.</a> Añade Beliani a tu <a style="color: #000; border: 0;" href="https://www.beliani.es/content/whitelist-emails-es/">lista blanca</a> de emails</p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -965,19 +981,17 @@ export default {
     ) => {
   
       const newsletter = `
-          <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
-        <span>✔️ Entregas e devoluções gratuitas ✔️Vasta escolha de artigos✔️ Até 70% de desconto</span>
-    </p>
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
+<span>✔️ Entregas e devoluções gratuitas ✔️Vasta escolha de artigos✔️ Até 70% de desconto</span></p>
 
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Está com problemas para visualizar a Newsletter? Veja a versão <a href="[[newsshowurl]]"
-            style="color: #000; border: 0;">online.</a></p>
-    <!-- top -->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
+Está com problemas para visualizar a Newsletter? Veja a versão <a href="[[newsshowurl]]" style="color: #000; border: 0;">online.</a> Adicione Beliani à sua <a href="https://www.beliani.pt/content/whitelist-emails-pt/" style="color: #000; border: 0;">lista branca</a> de emails</p>
+<!-- top -->
 
     <table align="center" border="0" cellpadding="0" cellspacing="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
@@ -1011,19 +1025,17 @@ export default {
     </table>
       `
       const landing = `
-          <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
-        <span>✔️ Entregas e devoluções gratuitas ✔️Vasta escolha de artigos✔️ Até 70% de desconto</span>
-    </p>
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
+<span>✔️ Entregas e devoluções gratuitas ✔️Vasta escolha de artigos✔️ Até 70% de desconto</span></p>
 
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Está com problemas para visualizar a Newsletter? Veja a versão <a href="[[newsshowurl]]"
-            style="color: #000; border: 0;">online.</a></p>
-    <!-- top -->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
+Está com problemas para visualizar a Newsletter? Veja a versão <a href="[[newsshowurl]]" style="color: #000; border: 0;">online.</a> Adicione Beliani à sua <a href="https://www.beliani.pt/content/whitelist-emails-pt/" style="color: #000; border: 0;">lista branca</a> de emails</p>
+<!-- top -->
 
     <table align="center" border="0" cellpadding="0" cellspacing="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
@@ -1070,30 +1082,36 @@ export default {
     ) => {
   
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Darmowa dostawa i zwroty ✔️ Największy wybór ✔️ Zniżki do 70%</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Przejdź do naszej
-        <a style="color: #000; border: 0;" href="[[newsshowurl]]"> wersji online.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Darmowa dostawa i zwroty ✔️ Największy wybór ✔️ Zniżki do 70%</span
+    >
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Przejdź do naszej
+    <a style="color: #000; border: 0;" href="[[newsshowurl]]">wersji online.</a> Dodaj Beliani do <a style="color: #000; border: 0;" href="https://www.beliani.pl/content/whitelist-emails-pl/">zaufanych maili</a>
+  </p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -1139,30 +1157,36 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-      ">
-        <br /><span>✔️ Darmowa dostawa i zwroty ✔️ Największy wybór ✔️ Zniżki do 70%</span>
-    </p>
-    <p style="
-        text-align: center;
-        font-size: 11px;
-        color: #8c8278;
-        margin-bottom: 10px;
-        margin-top: 10px;
-      ">
-        <br />Przejdź do naszej
-        <a style="color: #000; border: 0;" href="[[newsshowurl]]"> wersji online.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+    "
+  >
+    <br /><span
+      >✔️ Darmowa dostawa i zwroty ✔️ Największy wybór ✔️ Zniżki do 70%</span
+    >
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-size: 11px;
+      color: #8c8278;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    "
+  >
+    <br />Przejdź do naszej
+    <a style="color: #000; border: 0;" href="[[newsshowurl]]">wersji online.</a> Dodaj Beliani do <a style="color: #000; border: 0;" href="https://www.beliani.pl/content/whitelist-emails-pl/">zaufanych maili</a>
+  </p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0" style="
         margin: 0 auto;
         background-color: #ffffff;
@@ -1221,18 +1245,14 @@ export default {
     ) => {
   
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Ingyenes
-            szállítás & visszaküldés ✔️ Termékek széles választéka ✔️ Akár 70% kedvezmény</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;">
-        <br />Hírlevelünk nem jelenik meg tökéletesen? Nézze meg az <a style="color: #000;"
-            href="[[newsshowurl]]">online verziót.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Ingyenes szállítás & visszaküldés ✔️ Termékek széles választéka ✔️ Akár 70% kedvezmény</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Hírlevelünk nem jelenik meg tökéletesen? Nézze meg az <a style="color: #000;" href="[[newsshowurl]]">online verziót.</a> Add hozzá a Belianit <a style="color: #000;" href="https://www.beliani.hu/content/whitelist-emails-hu/">fehérlistádhoz</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1264,18 +1284,14 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Ingyenes
-            szállítás & visszaküldés ✔️ Termékek széles választéka ✔️ Akár 70% kedvezmény</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;">
-        <br />Hírlevelünk nem jelenik meg tökéletesen? Nézze meg az <a style="color: #000;"
-            href="[[newsshowurl]]">online verziót.</a>
-    </p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Ingyenes szállítás & visszaküldés ✔️ Termékek széles választéka ✔️ Akár 70% kedvezmény</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Hírlevelünk nem jelenik meg tökéletesen? Nézze meg az <a style="color: #000;" href="[[newsshowurl]]">online verziót.</a> Add hozzá a Belianit <a style="color: #000;" href="https://www.beliani.hu/content/whitelist-emails-hu/">fehérlistádhoz</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1320,17 +1336,18 @@ export default {
     ) => {
   
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️Gratis verzending
-            & retourneren ✔️ De grootste selectie ✔️ Tot 70% korting</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Wordt
-        deze nieuwsbrief niet correct weergegeven? Naar de <a style="color: #000; border: 0;"
-            href="[[newsshowurl]]">online versie.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️Gratis verzending
+          & retourneren ✔️ De grootste selectie ✔️ Tot 70% korting</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Wordt
+      deze nieuwsbrief niet correct weergegeven? Naar de <a style="color: #000; border: 0;"
+          href="[[newsshowurl]]">online versie.</a> Voeg Beliani toe aan je <a style="color: #000; border: 0;"
+          href="https://www.beliani.nl/content/whitelist-emails-nl/">whitelist</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1362,17 +1379,18 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️Gratis verzending
-            & retourneren ✔️ De grootste selectie ✔️ Tot 70% korting</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Wordt
-        deze nieuwsbrief niet correct weergegeven? Naar de <a style="color: #000; border: 0;"
-            href="[[newsshowurl]]">online versie.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️Gratis verzending
+          & retourneren ✔️ De grootste selectie ✔️ Tot 70% korting</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Wordt
+      deze nieuwsbrief niet correct weergegeven? Naar de <a style="color: #000; border: 0;"
+          href="[[newsshowurl]]">online versie.</a> Voeg Beliani toe aan je <a style="color: #000; border: 0;"
+          href="https://www.beliani.nl/content/whitelist-emails-nl/">whitelist</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1416,16 +1434,14 @@ export default {
       id
     ) => {
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt och
-            retur ✔️ Det största utbudet ✔️ Upp till 70% rabatt </span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Ser du
-        inte bilderna? Gå till vår <a href="[[newsshowurl]]" style="color: #000;">onlineversion.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt och retur ✔️ Det största utbudet ✔️ Upp till 70% rabatt </span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Ser du inte bilderna? Gå till vår <a href="[[newsshowurl]]" style="color: #000;">onlineversion.</a> Lägg till Beliani i din <a href="https://www.beliani.se/content/whitelist-emails-se/" style="color: #000;">vitlista</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1458,16 +1474,14 @@ export default {
       `
   
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt och
-            retur ✔️ Det största utbudet ✔️ Upp till 70% rabatt </span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Ser du
-        inte bilderna? Gå till vår <a href="[[newsshowurl]]" style="color: #000;">onlineversion.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt och retur ✔️ Det största utbudet ✔️ Upp till 70% rabatt </span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Ser du inte bilderna? Gå till vår <a href="[[newsshowurl]]" style="color: #000;">onlineversion.</a> Lägg till Beliani i din <a href="https://www.beliani.se/content/whitelist-emails-se/" style="color: #000;">vitlista</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1513,16 +1527,14 @@ export default {
     ) => {
   
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri fragt ✔️ Det
-            største udvalg ✔️ Op til 70% rabat</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Kan du
-        ikke se billeder? Tjek online version <a style="color: #000;" href="[[newsshowurl]]">af vores webshop.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri fragt ✔️ Det største udvalg ✔️ Op til 70% rabat</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Kan du ikke se billeder? Tjek online version <a style="color: #000;" href="[[newsshowurl]]">af vores webshop.</a> Tilføj Beliani til din <a style="color: #000;" href="https://www.beliani.dk/content/whitelist-emails-dk/">whitelist</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1554,16 +1566,14 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri fragt ✔️ Det
-            største udvalg ✔️ Op til 70% rabat</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Kan du
-        ikke se billeder? Tjek online version <a style="color: #000;" href="[[newsshowurl]]">af vores webshop.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri fragt ✔️ Det største udvalg ✔️ Op til 70% rabat</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Kan du ikke se billeder? Tjek online version <a style="color: #000;" href="[[newsshowurl]]">af vores webshop.</a> Tilføj Beliani til din <a style="color: #000;" href="https://www.beliani.dk/content/whitelist-emails-dk/">whitelist</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1607,17 +1617,14 @@ export default {
       id
     ) => {
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Doručení a
-            vrácení zdarma ✔️ Nejširší sortiment ✔️ Až 70% slevy</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Máte
-        problémy se zobrazením newsletteru? Tady zobrazíte <a style="color: #000; border: 0;"
-            href="[[newsshowurl]]">online verzi.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Doručení a vrácení zdarma ✔️ Nejširší sortiment ✔️ Až 70% slevy</span></p>
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Máte problémy se zobrazením newsletteru? Tady zobrazíte <a style="color: #000; border: 0;" href="[[newsshowurl]]">online verzi.</a> Přidejte Beliani mezi <a style="color: #000; border: 0;" href="https://www.beliani.cz/content/whitelist-emails-cz/">povolené e-mailové adresy</a></p>
+<!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1648,17 +1655,14 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Doručení a
-            vrácení zdarma ✔️ Nejširší sortiment ✔️ Až 70% slevy</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Máte
-        problémy se zobrazením newsletteru? Tady zobrazíte <a style="color: #000; border: 0;"
-            href="[[newsshowurl]]">online verzi.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Doručení a vrácení zdarma ✔️ Nejširší sortiment ✔️ Až 70% slevy</span></p>
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Máte problémy se zobrazením newsletteru? Tady zobrazíte <a style="color: #000; border: 0;" href="[[newsshowurl]]">online verzi.</a> Přidejte Beliani mezi <a style="color: #000; border: 0;" href="https://www.beliani.cz/content/whitelist-emails-cz/">povolené e-mailové adresy</a></p>
+<!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1702,18 +1706,16 @@ export default {
     ) => {
   
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
-        <span>✔️ Ilmainen toimitus ja palautus ✔️ Suurin tuotevalikoima ✔️ Jopa 70% alennuksia</span>
-    </p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Eikö uutiskirje näy kunnolla? Avaa <a href="[[newsshowurl]]" style="color: #000; border: 0;">uutiskirje
-            selaimessa.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
+<span>✔️ Ilmainen toimitus ja palautus ✔️ Suurin tuotevalikoima ✔️ Jopa 70% alennuksia</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
+Eikö uutiskirje näy kunnolla? Avaa <a href="[[newsshowurl]]" style="color: #000; border: 0;">uutiskirje selaimessa.</a> Lisää Beliani sähköpostisi <a href="https://www.beliani.fi/content/whitelist-emails-fi/" style="color: #000; border: 0;">valkolistalle</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1745,18 +1747,16 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
-        <span>✔️ Ilmainen toimitus ja palautus ✔️ Suurin tuotevalikoima ✔️ Jopa 70% alennuksia</span>
-    </p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
-        Eikö uutiskirje näy kunnolla? Avaa <a href="[[newsshowurl]]" style="color: #000; border: 0;">uutiskirje
-            selaimessa.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br />
+<span>✔️ Ilmainen toimitus ja palautus ✔️ Suurin tuotevalikoima ✔️ Jopa 70% alennuksia</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />
+Eikö uutiskirje näy kunnolla? Avaa <a href="[[newsshowurl]]" style="color: #000; border: 0;">uutiskirje selaimessa.</a> Lisää Beliani sähköpostisi <a href="https://www.beliani.fi/content/whitelist-emails-fi/" style="color: #000; border: 0;">valkolistalle</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1800,16 +1800,14 @@ export default {
       id
     ) => {
       const newsletter = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt ✔️
-            Størst utvalg ✔️ Opptil 70% rabatt</span></p>
-    <p style="text-align: center; font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Har du
-        problemer med å se nyhetsbrevet? Se <a style="color: #000;" href="[[newsshowurl]]">online versjonen.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt ✔️ Størst utvalg ✔️ Opptil 70% rabatt</span></p>
+<p style="text-align: center; font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Har du problemer med å se nyhetsbrevet? Se <a style="color: #000;" href="[[newsshowurl]]">online versjonen.</a> Legg til Beliani i din <a style="color: #000;" href="https://www.beliani.no/content/whitelist-emails-no/">hviteliste</a></p>
+<!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1841,16 +1839,14 @@ export default {
     </table>
       `
       const landing = `
-            <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt ✔️
-            Størst utvalg ✔️ Opptil 70% rabatt</span></p>
-    <p style="text-align: center; font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Har du
-        problemer med å se nyhetsbrevet? Se <a style="color: #000;" href="[[newsshowurl]]">online versjonen.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+<p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Fri frakt ✔️ Størst utvalg ✔️ Opptil 70% rabatt</span></p>
+<p style="text-align: center; font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Har du problemer med å se nyhetsbrevet? Se <a style="color: #000;" href="[[newsshowurl]]">online versjonen.</a> Legg til Beliani i din <a style="color: #000;" href="https://www.beliani.no/content/whitelist-emails-no/">hviteliste</a></p>
+<!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1895,16 +1891,14 @@ export default {
     ) => {
   
       const newsletter = `
-          <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Bezplatné
-            doručenie a vrátenie tovaru ✔️ Najväčší výber ✔️ Zľava až 70 %</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Máte
-        problémy s čítaním e-mailu? Pozrite si <a style="color: #000;" href="[[newsshowurl]]">online verziu.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Bezplatné doručenie a vrátenie tovaru ✔️ Najväčší výber ✔️ Zľava až 70 %</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Máte problémy s čítaním e-mailu? Pozrite si <a style="color: #000;" href="[[newsshowurl]]">online verziu.</a> Pridajte Beliani medzi <a style="color: #000;" href="https://www.beliani.sk/content/whitelist-emails-sk/">povolené e-mailové adresy</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
@@ -1934,16 +1928,14 @@ export default {
     </table>
       `
       const landing =`
-          <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-            <v:fill type="tile" color="#ececec">
-        </v:background>
-        <![endif]-->
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Bezplatné
-            doručenie a vrátenie tovaru ✔️ Najväčší výber ✔️ Zľava až 70 %</span></p>
-    <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br />Máte
-        problémy s čítaním e-mailu? Pozrite si <a style="color: #000;" href="[[newsshowurl]]">online verziu.</a></p>
-    <!-- top -->
+      <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+          <v:fill type="tile" color="#ececec">
+      </v:background>
+      <![endif]-->
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px;"><br /><span>✔️ Bezplatné doručenie a vrátenie tovaru ✔️ Najväčší výber ✔️ Zľava až 70 %</span></p>
+  <p style="text-align: center;  font-size:11px; color: #8c8278; margin-bottom: 10px; margin-top: 10px;"><br/>Máte problémy s čítaním e-mailu? Pozrite si <a style="color: #000;" href="[[newsshowurl]]">online verziu.</a> Pridajte Beliani medzi <a style="color: #000;" href="https://www.beliani.sk/content/whitelist-emails-sk/">povolené e-mailové adresy</a></p>
+  <!-- top -->
     <table align="center" cellspacing="0" cellpadding="0" border="0"
         style="margin: 0 auto; background-color:#ffffff; padding-top: 0em; padding-bottom: 0em; ">
         <tbody>
